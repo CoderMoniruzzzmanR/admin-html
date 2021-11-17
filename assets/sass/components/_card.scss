@@ -1,0 +1,89 @@
+.card{
+    border-color: var(--card-border);
+    background-color: var(--card-bg);
+    border: 1px solid var(--card-border);
+    border-radius: 0.5rem;
+    .card-header{
+        border-bottom: 1px solid var(--card-border);
+        padding: 1.5rem 1.5rem;
+        background-color: var(--card-bg);
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        text-transform: capitalize;
+        &:first-child{
+            border-radius: calc(0.5rem - 1px) calc(0.5rem - 1px) 0 0;
+        }
+        .card-title{
+            margin-bottom: 0px;
+            font-weight: 500;
+            font-size: 14px;
+        }
+    }
+    .card-body{
+        background-color: var(--card-bg);
+        padding: 1.5rem 1.5rem;
+        border-radius: 0rem 0rem 0.5rem 0.5rem;
+        &.boder-radius-around{
+            border-radius: 0.5rem 0.5rem;
+        }
+    }
+   
+}
+.dash-mini-card{
+    font-weight: 500;
+    h6{
+        color: var(--mini-card-color-gray);
+        letter-spacing: .08em;
+        font-size: 10px;
+        margin-bottom: 6px;
+        text-transform: uppercase;
+        margin-right: 6px;
+    }
+    .h-text{
+        letter-spacing: -.02em;
+        font-weight: 500;
+        font-size: 20px;
+    }
+    .badge{
+        font-weight: 400;
+    }
+    .gray-soft,.danger-soft,.success-soft,.blue-soft{
+        font-size: 20px;
+        font-weight: 500;
+    }
+    .static{
+        .text-mute{
+            text-transform: capitalize;
+            color: var(--mini-card-color-gray);
+            font-size: 12px;
+            margin-left: 5px;
+        }
+    }
+    .icon{
+        width: 3rem;
+        height: 3rem;
+        line-height: 3rem;
+        text-align: center;
+        font-size: 20px;
+        border-radius: 50%;
+        color: var(--color-white);
+        &.icon-soft-pupple{
+            background: var(--icon-soft-pupple);
+            color: #496ee8;
+        }
+        &.icon-soft-orange{
+            background:var(--icon-soft-orange);
+            color: #fea246;
+        }
+        &.icon-soft-pink{
+            background: var(--icon-soft-pink);
+            color: #f7284a;
+        }
+        &.icon-soft-fresh{
+            background: var(--icon-soft-fresh);
+            color: #35cf96;
+        }
+    }
+    
+}
