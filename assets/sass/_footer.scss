@@ -1,0 +1,23 @@
+.footer{
+    padding: 0px;
+    bottom: 0px;
+    justify-content: space-between;
+    flex-direction: column;
+    display: flex;
+    .footer-body{
+        border-top: 1px dashed var(--footer-border);
+        height: 80px;
+        flex-direction: row;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        span{
+            color: var(--footer-color-primary);
+            font-size: 14px;
+        }
+        .link{
+            font-size: 14px;
+            color: var(--footer-color);
+        }
+    }
+}

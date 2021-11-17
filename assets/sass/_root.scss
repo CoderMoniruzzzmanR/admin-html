@@ -1,0 +1,149 @@
+
+:root{
+    --darkicon-bg: #f5f6fa;
+    --body-bg: #f9fbfd;
+    --box-bg-primary: #fff;
+    --header-bg: #f9fbfd;
+    --text-color-primary: #12263f;
+    --text-color-secondary: #12263f;
+    --text-color: #76839a;
+    --border-primary : #e3ebf6;
+    --navbrand-bg : #fff;
+    --navbrand-border : #e3ebf6;
+    --sidebar-bg: #fff;
+    --sidebar-border: #e3ebf6;
+    --gray-primary: #76839a;
+    --breadcrumb-item-color: #6259ca;
+    --breadcrumb-item-active-color:#76839a;
+    --menu-item-active-bg: #9e88f5 0,#6259ca;
+    --menu-item-active-color: #ffffff;
+    --menu-item-color: #6e84a3;
+    --menu-item-hover-color: #6259ca;
+    --sidebarmenu-heading-color:#76839a;
+    --color-gray:#76839a;
+    --bg-whitegray: #f5f6fa;
+    --color-white: #fff;
+    .search{
+        --search-btn-bg: #9e88f5 0,#6259ca;
+        --search-btn-color: #fff;
+    }
+    .card{
+        --card-border: #e3ebf6;
+        --card-bg: #fff;
+        --search-border: #6259ca;
+        --mini-card-bg: transparent;
+        --mini-card-color-gray: #76839a;
+        --mini-card-color-primary: transparent;
+    }
+    .table{
+        --table-bg: transparent;
+        --table-head-color: #76839a;
+        --table-body-text-color:#12263f;
+        --table-boder: #e3ebf6;
+    }
+    --table-seacrh-boder: #e3ebf6;
+    --table-option-color: #76839a;
+    --table-option-bg: transparent;
+    --table-disable-color:#76839a;
+    --table-active-bg: #9e88f5 0,#6259ca;
+    --table-active-color: #fff;
+    --table-active-boder: #6259ca;
+    .header-action{
+        --action-color: #76839a;
+        --action-border: #e3ebf6;
+        --action-bg: transparent;
+        --action-hover-color: #fff;
+        --action-hover-bg: #9e88f5 0,#6259ca;
+        --action-hover-border: #6259ca;
+    }
+    .footer{
+        --footer-border : #e3ebf6;
+        --footer-color-primary: #76839a;
+        --footer-color:#17171E;
+    }
+    .badge,.card{
+        --color-white: #fff;
+        --bg-success-soft:#e6faf4;
+        --success-soft-color :#35cf96;
+        --bg-danger-soft:#fee9ed;
+        --success-soft-color: #00d97e;
+        --danger-soft-color :#f7284a;
+        --danger-soft-color :#ee335e;
+        --gray-soft-color: #76839a;
+        --blue-soft-color: #2c7be5;
+        .icon{
+            --icon-soft-pupple: #eaefff;
+            --icon-soft-orange:#fff2e5;
+            --icon-soft-pink:#fee9ed;
+            --icon-soft-fresh:#e6faf4;
+        }
+    }
+    
+
+    
+}
+.dark-theme{
+    --darkicon-bg: #17171E;
+    --border-primary : #2e2e42;
+    --body-bg: #17171E;
+    --header-bg:#17171E;
+    --navbrand-bg : #212130;
+    --navbrand-border : transparent;
+    --sidebar-bg: #212130;
+    --sidebar-border: transparent;
+    --text-color-primary: #fff;
+    --box-bg-primary: #fff;
+    --box-bg: #212130;
+    --bg-whitegray:#17171E;
+    --table-seacrh-boder: #2e2e42;
+    --table-option-color: #2e2e42;
+    .card{
+        --card-border: #2e2e42;
+        --card-bg: #212130;
+        --mini-card-bg: transparent;
+        --mini-card-color-gray: #76839a;
+        --mini-card-color-primary: transparent;
+    }
+    .table{
+        --table-bg: transparent;
+        --table-head-color: #76839a;
+        --table-body-text-color:#e3ebf6;
+        --table-boder: #2e2e42;
+        --table-seacrh-boder: #e3ebf6;
+    }
+    .search{
+        --search-btn-bg: #9e88f5 0,#6259ca;
+        --search-btn-color: #fff;
+        --search-border: #6259ca;
+    }
+    .header-action{
+        --action-color: #76839a;
+        --action-border: #2e2e42;
+        --action-bg: transparent;
+        --action-hover-color: #fff;
+        --action-hover-bg: #9e88f5 0,#6259ca;
+        --action-hover-border: #6259ca;
+    }
+    .footer{
+        --footer-border : #2e2e42;
+        --footer-color-primary: #76839a;
+        --footer-color:#6259ca;
+    }
+    .badge,.card{
+        --color-white: #fff;
+        --bg-success-soft:#e6faf4;
+        --success-soft-color :#35cf96;
+        --bg-danger-soft:#fee9ed;
+        --success-soft-color: #00d97e;
+        --danger-soft-color :#f7284a;
+        --danger-soft-color :#ee335e;
+        --gray-soft-color: #76839a;
+        --blue-soft-color: #2c7be5;
+        .icon{
+            --icon-soft-pupple: #eaefff;
+            --icon-soft-orange:#fff2e5;
+            --icon-soft-pink:#fee9ed;
+            --icon-soft-fresh:#e6faf4;
+        }
+    }
+}
