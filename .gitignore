@@ -1,5 +1,5 @@
 *.vscode
 *git.txt
-*.gitattributes
+.gitattributes
 assets/css/index.css
 
