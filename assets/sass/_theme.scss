@@ -2,6 +2,7 @@
 @import './components/card';
 @import './components/tables';
 @import './components/badge';
+@import './components/tab';
 .wrapper{
     transition: margin-left .3s ease;
     margin-left: 250px;
@@ -9,7 +10,7 @@
         padding: 0px 30px;
     }
     .page-top-border{
-        border-top: 1px solid var(--border-primary);
+        border-top: 1px dashed var(--border-primary);
         margin: 0px 30px;
     }
     .wrapper-content{
@@ -49,7 +50,7 @@
             padding: 0px 15px;
         }
         .page-top-border{
-            border-top: 1px solid var(--border-primary);
+            border-top: 1px dashed var(--border-primary);
             margin: 0px 15px;
         }
         .wrapper-content{
