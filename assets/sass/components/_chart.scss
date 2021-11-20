@@ -1,0 +1,42 @@
+.apexcharts-canvas{
+    padding-top: 1rem;
+    .apexcharts-xaxis-tick{
+        display: none;
+    }
+}
+.apexcharts-tooltip {
+    color: var(--mini-card-color-gray) !important;
+    &.apexcharts-theme-light, &.apexcharts-active{
+        background: var(--card-bg) !important;
+        border: 1px solid var(--card-border) !important;
+        .apexcharts-tooltip-title{
+            background: var(--card-bg) !important;
+            border-bottom:  1px solid var(--card-border) !important;
+        }
+    }
+}
+.apexcharts-xaxistooltip{
+    color: var(--mini-card-color-gray) !important;
+    &.apexcharts-active{
+        background: var(--card-bg) !important;
+        border: 1px solid var(--card-border) !important;
+        font-weight: 600;
+    }
+}
+.apexcharts-inner{
+    margin-top: 1rem;
+}
+.apexcharts-toolbar{
+    top: -5px !important;
+    .apexcharts-zoom-icon{
+        color: var(--mini-card-color-gray);
+        &.apexcharts-selected{
+            display: none;
+        }
+    }
+}
+.apexcharts-menu{
+    .apexcharts-menu-item {
+        padding: 6px 6px;
+    }
+}

@@ -1,3 +1,8 @@
+.badge{
+    font-size: 13px;
+    font-weight: 600;
+}
+
 .bg-success-soft {
     background-color: var(--bg-success-soft);
     color: var(--success-soft-color);
@@ -6,6 +11,17 @@
     background-color: var(--bg-danger-soft);
     color: var(--danger-soft-color);
 }
+
+.bg-pupple-soft{
+    background: var(--bg-soft-pupple);
+    color: var(--pupple-soft-color);
+}
+
+.bg-orange-soft{
+    background: var(--bg-soft-orange);
+    color: var(--orange-soft-color);
+}
+
 
 .bg-gray-soft{
     background-color: var(--bg-gray-soft);

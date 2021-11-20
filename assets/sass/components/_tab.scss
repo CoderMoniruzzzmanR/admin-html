@@ -1,0 +1,19 @@
+//chart tab
+.header-toolbar{
+    .nav{
+        .nav-item{
+            .nav-link{
+                padding: 0.5rem 1rem;
+                margin-right :0.25rem;
+                font-size: 13px;
+                font-weight: 600;
+                color: var(--link-color);
+                border-radius: 0.475rem;
+                &.active{
+                    color: var(--active-link-color);
+                    background-color: var(--active-link-bg);
+                }
+            }
+        }
+    }
+}

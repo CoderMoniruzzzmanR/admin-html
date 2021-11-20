@@ -5,7 +5,7 @@
     --box-bg-primary: #fff;
     --header-bg: #f9fbfd;
     --text-color-primary: #12263f;
-    --text-color-secondary: #12263f;
+    --text-color-secondary: #6259ca;
     --text-color: #76839a;
     --border-primary : #e3ebf6;
     --navbrand-bg : #fff;
@@ -72,6 +72,10 @@
         --danger-soft-color :#ee335e;
         --gray-soft-color: #76839a;
         --blue-soft-color: #2c7be5;
+        --bg-soft-pupple:#eaefff;
+        --pupple-soft-color: #6259ca;
+        --bg-soft-orange:#fff2e5;
+        --orange-soft-color:#fea246;
         .icon{
             --icon-soft-pupple: #eaefff;
             --icon-soft-orange:#fff2e5;
@@ -79,7 +83,12 @@
             --icon-soft-fresh:#e6faf4;
         }
     }
-    
+    .header-toolbar{
+        --link-bg: transparent;
+        --link-color: #76839a;
+        --active-link-bg: #eaefff;
+        --active-link-color: #6259ca;
+    }
 
     
 }
@@ -104,6 +113,7 @@
         --mini-card-bg: transparent;
         --mini-card-color-gray: #76839a;
         --mini-card-color-primary: transparent;
+        --mini-card-color-secondary: #fff;
     }
     .table{
         --table-bg: transparent;

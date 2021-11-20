@@ -412,8 +412,8 @@
                     <!--end::Row-->
                     <!--begin::Row-->
                     <div class="row mt-30">
-                        <!--begin::col-lg-3-->
-                        <div class="col-lg-5">
+                        <!--begin::col-lg-7-->
+                        <div class="col-lg-7">
                             <!--begin::Card-->
                             <div class="card card-sm">
                                 <!--begin::Card-header-->
@@ -428,12 +428,14 @@
                                         <ul class="nav">
                                             <!--begin::Nav-item-->
                                             <li class="nav-item">
-                                                <a href="#" class="nav-link active" data-bs-toggle="tab" data-bs-target="#dailySalesSatic">Daily</a>
+                                                <a href="#" class="nav-link" data-bs-toggle="tab" data-bs-target="#dailySalesSatic">
+                                                Daily
+                                                </a>
                                             </li>
                                             <!--end::Nav-item-->
                                             <!--begin::Nav-item-->
                                             <li class="nav-item">
-                                                <a href="#" class="nav-link" data-bs-toggle="tab" data-bs-target="#montlySalesSatic">Monthly</a>
+                                                <a href="#" class="nav-link active" data-bs-toggle="tab" data-bs-target="#montlySalesSatic">Monthly</a>
                                             </li>
                                             <!--end::Nav-item-->
                                             <!--begin::Nav-item-->
@@ -448,22 +450,28 @@
                                 </div>
                                 <!--end::Card-header-->
                                 <!--begin::Card-body-->
-                                <div class="card-body pt-0">
+                                <div class="card-body">
                                     <!--begin::Tab-content-->
                                     <div class="tab-content">
                                         <!--begin::Tab-pane-->
-                                        <div class="tab-pane fade show active" id="dailySalesSatic">
-                                            k
+                                        <div class="tab-pane fade" id="dailySalesSatic">
+                                            <!--begin::Apexchart daily sale static-->
+                                            <div id="saleStatic-chart_daily"></div>
+                                            <!--end::Apexchart daily sale static-->
                                         </div>
                                         <!--end::Tab-pane-->
                                         <!--begin::Tab-pane-->
-                                        <div class="tab-pane fade" id="montlySalesSatic">
-                                            m
+                                        <div class="tab-pane fade show active" id="montlySalesSatic">
+                                            <!--begin::Apexchart monthly sale static-->
+                                            <div id="saleStatic-chart_monthly"></div>
+                                            <!--end::Apexchart sale monthly static-->
                                         </div>
                                         <!--end::Tab-pane-->
                                         <!--begin::Tab-pane-->
                                         <div class="tab-pane fade" id="yearlySalesSatic">
-                                            R
+                                            <!--begin::Apexchart yearly sale static-->
+                                            <div id="saleStatic-chart_yearly"></div>
+                                            <!--end::Apexchart yearly sale monthly static-->
                                         </div>
                                         <!--end::Tab-pane-->
                                     </div>
@@ -473,10 +481,208 @@
                             </div>
                             <!--end::Card-->
                         </div>
-                        <!--end::col-lg-4-->
-
+                        <!--end::col-lg-7-->
                         <!--begin::col-lg-8-->
-                        <div class="col-lg-7">
+                        <div class="col-lg-5">
+                            <!--begin::Card-->
+                            <div class="card card-sm">
+                                <!--begin::Card-header-->
+                                <div class="card-header boder-b-n">
+                                    <!--begin::Heading-->
+                                    <h4>Recent Transition</h4>
+                                    <!--end::Heading-->
+                                    <!--begin::Header-toolbar-->
+                                    <div class="header-toolbar">
+                                        <a href="#" class="view-all-btn">view all</a>
+                                    </div>
+                                    <!--end::Header-toolbar-->
+                                </div>
+                                <!--end::Card-header-->
+                                <!--begin::Card-body-->
+                                <div class="card-body">
+                                    <div class="table-responsive dashboard-table">
+                                        <table class="table">
+                                            <tbody>
+
+                                                <tr>
+                                                    <td class="w-50px">
+                                                        <div class="symbol">
+                                                            <span class="symbol-label">
+                                                                <img src="/assets/img/profile-8.jpg"  alt="">
+                                                            </span>
+                                                        </div>
+                                                    </td>
+                                                    <td class="w-150px">
+                                                        <a href="#" class="btn-u">
+                                                            Keanu Reeves
+                                                        </a>
+                                                        <span class="time-hints"> 
+                                                            1 hour ago
+                                                        </span>
+                                                    </td>
+                                                    <td class="w-140px text-end">
+                                                        <span class="price">
+                                                            $4,600,000
+                                                        </span>
+                                                        <span class="trans-i">
+                                                            <strong>Trans:</strong> 
+                                                            #12323423
+                                                        </span>
+                                                    </td>
+                                                    <td class="w-140px text-end">
+                                                        <span class="badge bg-success-soft">In Progress</span>
+                                                    </td>
+                                                    <td class="w-50px">
+                                                        <button class="btn btn-icon bg-pupple-soft">
+                                                            <i class="ti-more"></i>
+                                                        </button>
+                                                    </td>
+                                                </tr>
+
+                                                <tr>
+                                                    <td class="w-50px">
+                                                        <div class="symbol">
+                                                            <span class="symbol-label">
+                                                                <img src="/assets/img/profile-8.jpg"  alt="">
+                                                            </span>
+                                                        </div>
+                                                    </td>
+                                                    <td class="w-150px">
+                                                        <a href="#" class="btn-u">
+                                                            Keanu Reeves
+                                                        </a>
+                                                        <span class="time-hints"> 
+                                                            1 hour ago
+                                                        </span>
+                                                    </td>
+                                                    <td class="w-140px text-end">
+                                                        <span class="price">
+                                                            $4,600,000
+                                                        </span>
+                                                        <span class="trans-i">
+                                                            <strong>Trans:</strong> 
+                                                            #12323423
+                                                        </span>
+                                                    </td>
+                                                    <td class="w-140px text-end">
+                                                        <span class="badge bg-orange-soft">Pending</span>
+                                                    </td>
+                                                    <td class="w-50px">
+                                                        <button class="btn btn-icon bg-pupple-soft">
+                                                            <i class="ti-more"></i>
+                                                        </button>
+                                                    </td>
+                                                </tr>
+
+                                                <tr>
+                                                    <td class="w-50px">
+                                                        <div class="symbol">
+                                                            <span class="symbol-label">
+                                                                <img src="/assets/img/profile-8.jpg"  alt="">
+                                                            </span>
+                                                        </div>
+                                                    </td>
+                                                    <td class="w-150px">
+                                                        <a href="#" class="btn-u">
+                                                            Keanu Reeves
+                                                        </a>
+                                                        <span class="time-hints"> 
+                                                            1 hour ago
+                                                        </span>
+                                                    </td>
+                                                    <td class="w-140px text-end">
+                                                        <span class="price">
+                                                            $4,600,000
+                                                        </span>
+                                                        <span class="trans-i">
+                                                            <strong>Trans:</strong> 
+                                                            #12323423
+                                                        </span>
+                                                    </td>
+                                                    <td class="w-140px text-end">
+                                                        <span class="badge bg-success-soft">In Progress</span>
+                                                    </td>
+                                                    <td class="w-50px">
+                                                        <button class="btn btn-icon bg-pupple-soft">
+                                                            <i class="ti-more"></i>
+                                                        </button>
+                                                    </td>
+                                                </tr>
+
+                                                <tr>
+                                                    <td class="w-50px">
+                                                        <div class="symbol">
+                                                            <span class="symbol-label">
+                                                                <img src="/assets/img/profile-8.jpg"  alt="">
+                                                            </span>
+                                                        </div>
+                                                    </td>
+                                                    <td class="w-150px">
+                                                        <a href="#" class="btn-u">
+                                                            Keanu Reeves
+                                                        </a>
+                                                        <span class="time-hints"> 
+                                                            1 hour ago
+                                                        </span>
+                                                    </td>
+                                                    <td class="w-140px text-end">
+                                                        <span class="price">
+                                                            $4,600,000
+                                                        </span>
+                                                        <span class="trans-i">
+                                                            <strong>Trans:</strong> 
+                                                            #12323423
+                                                        </span>
+                                                    </td>
+                                                    <td class="w-140px text-end">
+                                                        <span class="badge bg-danger-soft">Declined</span>
+                                                    </td>
+                                                    <td class="w-50px">
+                                                        <button class="btn btn-icon bg-pupple-soft">
+                                                            <i class="ti-more"></i>
+                                                        </button>
+                                                    </td>
+                                                </tr>
+                                                
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                                <!--end::Card-header-->
+                            </div>
+                            <!--end::Card-->
+                        </div>
+                        <!--end::col-lg-8-->
+                       
+                    </div>
+                    <!--end::Row-->
+                    <!--begin::Row-->
+                    <div class="row mt-30">
+                        <!--begin::col-lg-7-->
+                        <div class="col-lg-6">
+                            <!--begin::Card-->
+                            <div class="card card-sm">
+                                <!--begin::Card-header-->
+                                <div class="card-header boder-b-n">
+                                    <!--begin::Heading-->
+                                    <h4>Sales Statistics 
+                                    </h4>
+                                    <!--end::Heading-->
+                                </div>
+                                <!--end::Card-header-->
+                                <!--begin::Card-body-->
+                                <div class="card-body">
+                                    <!--begin::Tab-content-->
+                                    
+                                    <!--end::Tab-content-->
+                                </div>
+                                <!--end::Card-body-->
+                            </div>
+                            <!--end::Card-->
+                        </div>
+                        <!--end::col-lg-7-->
+                        <!--begin::col-lg-8-->
+                        <div class="col-lg-6">
                             <!--begin::Card-->
                             <div class="card card-sm">
 
@@ -484,6 +690,7 @@
                             <!--end::Card-->
                         </div>
                         <!--end::col-lg-8-->
+                       
                     </div>
                     <!--end::Row-->
                 </div>
@@ -508,8 +715,12 @@
     <script src="assets/js/plugin/jQuery/jquery-3.6.0.min.js"></script>
     <!--Boostrap scripts-->
     <script src="assets/js/plugin/bootstrap/bootstrap.bundle.min.js"></script>
+     <!--Boostrap scripts-->
+     <script src="assets/js/plugin/moment/moment.js"></script>
     <!--Apexchart scripts-->
     <script src="assets/js/plugin/apexchart/apexcharts.js"></script>
+    <!--Chart js-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.6.0/chart.min.js"></script>
     <!--custom code javascript code-->
     <script src="assets/js/index.js"></script>
 
