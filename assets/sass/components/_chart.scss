@@ -1,5 +1,5 @@
 .apexcharts-canvas{
-    padding-top: 1rem;
+    // padding-top: 1rem;
     .apexcharts-xaxis-tick{
         display: none;
     }
@@ -38,5 +38,31 @@
 .apexcharts-menu{
     .apexcharts-menu-item {
         padding: 6px 6px;
+    }
+}
+.apexcharts-legend-series{
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+}
+.canvas-container{
+    padding-top: 1rem;
+}
+.heigh-290{
+    max-height: 262px;
+}
+.legend-ic{
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+    border-radius: 50%;
+    margin-right: 5px;
+    margin-top: 6px;
+    background-color: var(--orange-soft-color);
+    &.bg-orange{
+        background-color: var(--orange-soft-color);
+    }
+    &.bg-danger{
+        background-color: var(--bg-danger-soft);
     }
 }

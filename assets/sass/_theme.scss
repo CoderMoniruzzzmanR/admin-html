@@ -31,6 +31,91 @@
 .main-body{
     margin-left: 0px;
 }
+
+.balance-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    h4{
+        font-size: 18px;
+        color: var(--mini-card-color-secondary);
+        .label{
+            margin-top: 5px;
+            display: block;
+            color: var(--gray-primary);
+            font-size: 12px;
+            text-transform: capitalize;
+        }
+    }
+    .price{
+        color: var(--gray-primary);
+        font-size: 16px;
+        font-weight: 500;
+    }
+}
+.order-content{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    span{
+        display: block;
+        &.heading{
+            text-align: center;
+            font-size: 16px;
+            color: var(--mini-card-color-secondary);
+        }
+        &.count{
+            text-align: center;
+            color: var(--gray-primary);
+            font-size: 14px;
+            font-weight: 500;
+        }
+        &.hints{
+            text-transform: capitalize;
+            color: var(--mini-card-color-gray);
+            font-size: 12px;
+            margin-left: 5px;
+        }
+        &.badge{
+            display: inline-block;}
+        &.legend-ic{
+            display: inline-block;
+        }
+    }
+}
+.income-content{
+    .item{
+        padding-top: 1rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        h5{
+            font-size: 16px;
+            color: var(--mini-card-color-secondary);
+        }
+        .price{
+            text-align: center;
+            color: var(--gray-primary);
+            font-size: 14px;
+            font-weight: 500;
+            .btn{
+                padding: 0px;
+                font-size: 13px;
+                &.success-soft{
+                    &:hover{
+                        color: var(--success-soft-color);
+                    }
+                }
+                &.danger-soft{
+                    &:hover{
+                        color: var(--danger-soft-color);
+                    }
+                }
+            }
+        }
+    }
+}
 @media only screen and (max-width: 991px) {
     .wrapper{
         margin-left: 0px;
