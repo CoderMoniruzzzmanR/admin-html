@@ -28,6 +28,7 @@
         &.boder-radius-around{
             border-radius: 0.5rem 0.5rem;
         }
+        
     }
    
 }
@@ -45,7 +46,7 @@
     .h-text{
         letter-spacing: -.02em;
         font-weight: 500;
-        font-size: 18px;
+        font-size: 16px;
     }
     .badge{
         font-weight: 400;
@@ -95,7 +96,7 @@
         padding: 1rem 1.5rem 1rem 1.5rem;
         height: 70px;
         h4{
-            font-size: 18px;
+            font-size: 16px;
             text-transform: capitalize;
             // letter-spacing: -.02em;
         }
@@ -109,8 +110,81 @@
     }
     .card-body{
         padding: 1rem 1.5rem 1rem 1.5rem;
+        .progress{
+            background-color: var( --bg-soft-pupple);
+            height: 0.5rem;
+        }
+        .card-progress{
+            border: 1px solid var(--card-border);
+            padding: 1rem 1.5rem 1rem 1.5rem;
+            background-color: var(--card-bg);
+            padding: 1.5rem 1.5rem;
+            border-radius: 0.5rem 0.5rem;
+            box-shadow: 0 0 30px rgba(146,153,184,.1);
+            margin-top: 1rem;
+            &:first-child{
+                margin-top: 0rem;
+            }
+        }
+        .card-progress__info{
+            justify-content: space-between;
+            display: flex;
+            align-items: center;
+            margin-bottom: 1rem;
+            span{
+                display: block;
+                letter-spacing: .02em;
+                font-size: 12px;
+                text-transform: uppercase;
+                strong{
+                    font-size: 16px;    
+                }
+                &.info-left{
+                    span{
+                        color: var(--mini-card-color-gray);
+                    }
+                }
+                &.info-right{
+                    text-align: right;
+                    span{
+                        color: var(--mini-card-color-gray);
+                    }
+                }
+            }
+        }
+        .progress-view{
+            margin-top: 1rem;
+            justify-content: space-between;
+            display: flex;
+            align-items: center;
+            .progress-previous{
+                color: var(--mini-card-color-gray);
+                font-size: 12px;
+                font-weight: 500;
+                strong{
+                    font-size: 13px;
+                    font-weight: 500;
+                }
+            }
+            .progress-est{
+                font-size: 16px;
+                font-weight: 600;
+            }
+        }
     }
 }
-.card-l{
+// .card-sm{
+//     .card-body{
+//         .card-progress{
+//             background: #fff;
+//             -webkit-box-shadow: 0 10px 30px rgb(146 153 184 / 15%);
+//             box-shadow: 0 10px 30px rgb(146 153 184 / 15%);
+//             -webkit-border-radius: 10px;
+//             border-radius: 10px;
+//             padding: 1rem 1.5rem 1rem 1.5rem;
+//             margin-bottom: 1rem;
+//         }
+//     }
+// }
 
-}
+

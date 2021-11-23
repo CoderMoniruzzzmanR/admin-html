@@ -47,9 +47,13 @@
 }
 .canvas-container{
     padding-top: 1rem;
+    height: 314px;
+    .height-chart{
+        max-height: 314px;
+    }
 }
-.heigh-290{
-    max-height: 262px;
+.height-chart_js_donut{
+    max-height: 450px;
 }
 .legend-ic{
     width: 10px;

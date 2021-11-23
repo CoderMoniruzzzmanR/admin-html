@@ -14,6 +14,8 @@
 
     <!--Themify-icon link-->
     <link href="assets/css/plugin/themify-icon/themify-icons.css" rel="stylesheet"/>
+    <!--Slick link-->
+    <link href="assets/css/plugin/slick/slick.css" rel="stylesheet"/>
     <!--Animated link-->
     <link href="assets/css/plugin/animate.css/animated.css" rel="stylesheet"/>
     <!--style link-->
@@ -412,7 +414,7 @@
                     <!--begin::Row-->
                     <div class="row mt-30">
                         <!--begin::col-lg-6-->
-                        <div class="col-lg-6">
+                        <div class="col-lg-8">
                             <!--begin::Card-->
                             <div class="card card-sm">
                                 <!--begin::Card-header-->
@@ -451,12 +453,16 @@
                                 <!--begin::Card-body-->
                                 <div class="card-body">
                                     <!--begin::Tab-content-->
-                                    <div class="tab-content">
+                                    <div class="tab-content custom-card_body_height">
                                         <!--begin::Tab-pane-->
                                         <div class="tab-pane fade" id="dailySalesSatic">
-                                            <!--begin::Apexchart daily sale static-->
-                                            <div id="saleStatic-chart_daily"></div>
-                                            <!--end::Apexchart daily sale static-->
+                                            <!--begin::Tab-content-->
+                                            <div class="canvas-container">
+                                                <!--begin::Apexchart daily sale static-->
+                                                <div id="saleStatic-chart_daily" class="height-chart"></div>
+                                                <!--end::Apexchart daily sale static-->
+                                            </div>
+                                            <!--end::Tab-content-->
                                         </div>
                                         <!--end::Tab-pane-->
                                         <!--begin::Tab-pane-->
@@ -481,8 +487,75 @@
                             <!--end::Card-->
                         </div>
                         <!--end::col-lg-6-->
-                        <!--begin::col-lg-3-->
-                        <div class="col-xl-3">
+                        <!--end::col-lg-6-->
+                        <div class="col-lg-4">
+                            <div class="card card-sm over-view-card">
+                                <div class="card-header boder-b-n">
+                                    <div class="over-view">
+                                        <h4>Daily Overview</h4>
+                                        <div class="button">
+                                            <button type="button" class="btn btn-icon">
+                                                <i class="ti-more "></i>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card-body custom-card_body_height slider-overview">
+                                    <div class="card-progress">
+                                        <div class="card-progress__info">
+                                            <span class="info-left">
+                                                <span>Today Product Sales</span>
+                                                <strong>6,000</strong>
+                                            </span>
+                                            <span class="info-right">
+                                                <span>Expected Product Sales</span>
+                                                <strong class="color-dark">9,000</strong>
+                                            </span>
+                                        </div>
+                                        <div class="card-progress__bar">
+                                            <div class="progress">
+                                                <div class="progress-bar bg-purple" role="progressbar" style="width: 68%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                            </div>
+
+                                            <div class="progress-view">
+                                                <p class="progress-previous"><strong class="success-soft"><span><i class="ti-stats-up "></i></span> 25%</strong> Since Yesterday</p>
+                                                <span class="progress-est color-purple">65%</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card-progress">
+                                        <div class="card-progress__info">
+                                            <span class="info-left">
+                                                <span>Today Customers</span>
+                                                <strong>6,000</strong>
+                                            </span>
+                                            <span class="info-right">
+                                                <span>Expected Customers</span>
+                                                <strong class="color-dark">9,000</strong>
+                                            </span>
+                                        </div>
+                                        <div class="card-progress__bar">
+                                            <div class="progress">
+                                                <div class="progress-bar bg-orange" role="progressbar" style="width: 78%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                            </div>
+
+                                            <div class="progress-view">
+                                                <p class="progress-previous"><strong class="danger-soft"><span><i class="ti-stats-down"></i></span> 25%</strong> Since Yesterday</p>
+                                                <span class="progress-est color-orange">78%</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--end::col-lg-6-->
+                    </div>
+                    <!--end::Row-->
+
+                    <!--begin::Row-->
+                    <div class="row mt-30">
+                        <!--begin::col-lg-7-->
+                        <div class="col-lg-5">
                             <!--begin::Card-->
                             <div class="card card-sm ">
                                 <!--begin::Card-body-->
@@ -490,92 +563,156 @@
                                     <!--begin::Balance-content-->
                                     <div class="balance-content">
                                         <h4>
-                                            Income And Expenses
+                                            Current Balance
                                             <span class="label">
-                                                Last updated 1 hour ago
+                                                <span class="badge bg-success-soft">
+                                                    +3.5%
+                                                </span>
+                                                than last month
                                             </span>
                                         </h4>
+                                        <span class="price">
+                                            $25,456.44 
+                                            
+                                        </span>
                                     </div>
                                     <!--end::Balance-content-->
-                                    <!--begin::Order-content-->
-                                    <div class="income-content">
-                                        <div class="item">
-                                            <div class="item-content">
-                                                <h5>Total income
-                                                </h5>
-                                                <span class="price">$274,820
-                                                    <span class="btn success-soft" data-toggle="tooltip" data-placement="top" title="9% higher than the last month">
-                                                        9%
-                                                        <span>
-                                                            <i class="ti-stats-up "></i>
-                                                        </span>
-                                                    </span>
-                                                </span>
-                                            </div>
-                                            <div id="spark2"></div>
-                                        </div>
-
-                                        <div class="item">
-                                            <div class="item-content">
-                                                <h5>Total expenses
-                                                </h5>
-                                                <span class="price">$104,820
-                                                    <span class="btn success-soft" data-toggle="tooltip" data-placement="top" title="9% higher than the last month">
-                                                        3%
-                                                        <span>
-                                                            <i class="ti-stats-up "></i>
-                                                        </span>
-                                                    </span>
-                                                </span>
-                                            </div>
-                                            <div id="spark1"></div>
-                                        </div>
-
-                                        <div class="item">
-                                            <div class="item-content">
-                                                <h5>Cost of goods sold
-                                                </h5>
-                                                <span class="price">$74,820
-                                                    <span class="btn success-soft" data-toggle="tooltip" data-placement="top" title="9% higher than the last month">
-                                                        6%
-                                                        <span>
-                                                            <i class="ti-stats-up "></i>
-                                                        </span>
-                                                    </span>
-                                                </span>
-                                            </div>
-                                            <div id="spark3"></div>
-                                        </div>
-
-                                        <div class="item">
-                                            <div class="item-content">
-                                                <h5>Net profit
-                                                </h5>
-                                                <span class="price">$24,820
-                                                    <span class="btn danger-soft" data-toggle="tooltip" data-placement="top" title="9% higher than the last month">
-                                                        5%
-                                                        <span>
-                                                            <i class="ti-stats-down "></i>
-                                                        </span>
-                                                    </span>
-                                                </span>
-                                            </div>
-                                            <div id="spark4"></div>
-                                        </div>
-                                    </div>
-                                    <!--end::Order-content-->
+                                    <!--begin::Tab-content-->
+                                        <div id="chartBar2"></div>
+                                    <!--end::Tab-content-->
                                 </div>
                                 <!--end::Card-body-->
                             </div>
                             <!--end::Card-->
                         </div>
-                        <!--end::col-lg-3-->
+                        <!--end::col-lg-7-->
                         <!--begin::col-lg-3-->
-                        <div class="col-xl-3">
+                         <div class="col-xl-3 popular-product">
+                            <!--begin::Card-->
+                            <div class="card card-sm ">
+                                <!--begin::Card-header-->
+                                <div class="card-header boder-b-n">
+                                    <!--begin::Heading-->
+                                    <h4>Popular Product</h4>
+                                    <!--end::Heading-->
+                                    <!--begin::Header-toolbar-->
+                                    <div class="header-toolbar">
+                                        <a href="#" class="view-all-btn">view all</a>
+                                    </div>
+                                    <!--end::Header-toolbar-->
+                                </div>
+                                <!--end::Card-header-->
+                                <!--begin::Card-body-->
+                                 <div class="card-body custom-card_body_height">
+                                    <!--begin::List-group-->
+                                    <div class="list-group list-main">
+                                        
+                                        <!--begin::List-group-item-->
+                                        <div class="list-group-item">
+                                            <div class="row">
+                                                <div class="col-auto">
+                                                    <a href="#" class="image">
+                                                        <img src="./assets/img/item1.png" alt="...">
+                                                    </a>
+                                                </div>
+                                                <div class="col info">
+                                                    <h4>
+                                                        <a href="#">Homepage Redesign
+                                                        </a>
+                                                    </h4>
+                                                    <p class="small-text"><time datetime="2022-01-01">Updated 4hr ago</time>
+                                                    </p>
+                                                </div>
+                                                <div class="col-auto">
+                                                    <div class="dropdown">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!--end::List-group-item-->
+                                        <!--begin::List-group-item-->
+                                        <div class="list-group-item">
+                                            <div class="row">
+                                                <div class="col-auto">
+                                                    <a href="#" class="image">
+                                                        <img src="./assets/img/item1.png" alt="...">
+                                                    </a>
+                                                </div>
+                                                <div class="col info">
+                                                    <h4>
+                                                        <a href="#">Homepage Redesign
+                                                        </a>
+                                                    </h4>
+                                                    <p class="small-text"><time datetime="2022-01-01">Updated 4hr ago</time>
+                                                    </p>
+                                                </div>
+                                                <div class="col-auto">
+                                                    <div class="dropdown">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!--end::List-group-item-->
+                                        <!--begin::List-group-item-->
+                                        <div class="list-group-item">
+                                            <div class="row">
+                                                <div class="col-auto">
+                                                    <a href="#" class="image">
+                                                        <img src="./assets/img/item1.png" alt="...">
+                                                    </a>
+                                                </div>
+                                                <div class="col info">
+                                                    <h4>
+                                                        <a href="#">Homepage Redesign
+                                                        </a>
+                                                    </h4>
+                                                    <p class="small-text"><time datetime="2022-01-01">Updated 4hr ago</time>
+                                                    </p>
+                                                </div>
+                                                <div class="col-auto">
+                                                    <div class="dropdown">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!--end::List-group-item-->
+                                        <!--begin::List-group-item-->
+                                        <div class="list-group-item">
+                                            <div class="row">
+                                                <div class="col-auto">
+                                                    <a href="#" class="image">
+                                                        <img src="./assets/img/item1.png" alt="...">
+                                                    </a>
+                                                </div>
+                                                <div class="col info">
+                                                    <h4>
+                                                        <a href="#">Homepage Redesign
+                                                        </a>
+                                                    </h4>
+                                                    <p class="small-text"><time datetime="2022-01-01">Updated 4hr ago</time>
+                                                    </p>
+                                                </div>
+                                                <div class="col-auto">
+                                                    <div class="dropdown">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!--end::List-group-item-->
+                                    </div>
+                                    <!--end::List-group-->
+                                </div>
+                                <!--end::Card-header-->
+                            </div>
+                            <!--end::Card-->
+                        </div>
+                        <!--end::col-lg-3-->
+                         <!--begin::col-lg-3-->
+                         <div class="col-xl-4">
                             <!--begin::Card-->
                             <div class="card card-sm ">
                                 <!--begin::Card-body-->
-                                <div class="card-body boder-radius-around">
+                                <div class="card-body height-chart_js_donut boder-radius-around">
                                     <!--begin::Balance-content-->
                                     <div class="balance-content">
                                         <h4>
@@ -594,7 +731,7 @@
                                     <!--end::Balance-content-->
                                     <!--begin::Tab-content-->
                                     <div class="canvas-container">
-                                        <canvas id="chartjs-3" class="chartjs heigh-290"></canvas>
+                                        <canvas id="chartjs-3" class="chartjs height-chart"></canvas>
                                     </div>
                                     <!--end::Tab-content-->
                                     <!--begin::Order-content-->
@@ -625,45 +762,8 @@
                     </div>
                     <!--end::Row-->
 
-                    <!--begin::Row-->
-                    <div class="row mt-30">
-                        <!--begin::col-lg-7-->
-                        <!-- <div class="col-lg-3">
-
-                        </div> -->
-                        <!--begin::col-lg-7-->
-                        <!--begin::col-lg-7-->
-                        <div class="col-lg-6">
-                            <!--begin::Card-->
-                            <div class="card card-sm ">
-                                <!--begin::Card-body-->
-                                <div class="card-body boder-radius-around">
-                                    <!--begin::Balance-content-->
-                                    <div class="balance-content">
-                                        <h4>
-                                            Current Balance
-                                            <span class="label">
-                                                <span class="badge bg-success-soft">
-                                                    +3.5%
-                                                </span>
-                                                than last week
-                                            </span>
-                                        </h4>
-                                        <span class="price">
-                                            $25,456.44 
-                                            
-                                        </span>
-                                    </div>
-                                    <!--end::Balance-content-->
-                                    <!--begin::Tab-content-->
-                                        <div id="chartBar2"></div>
-                                    <!--end::Tab-content-->
-                                </div>
-                                <!--end::Card-body-->
-                            </div>
-                            <!--end::Card-->
-                        </div>
-                        <!--end::col-lg-7-->
+                     <!--begin::Row-->
+                     <div class="row mt-30">
                         <!--begin::col-lg-8-->
                         <div class="col-lg-6">
                             <!--begin::Card-->
@@ -681,7 +781,7 @@
                                 </div>
                                 <!--end::Card-header-->
                                 <!--begin::Card-body-->
-                                <div class="card-body">
+                                <div class="card-body custom-card_body_height">
                                     <div class="table-responsive dashboard-table">
                                         <table class="table">
                                             <tbody>
@@ -864,10 +964,13 @@
     <!--Apexchart scripts-->
     <script src="assets/js/plugin/apexchart/apexcharts.js"></script>
     <!--Chart js-->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.6.0/chart.min.js"></script>
+    <script src="assets/js/plugin/chart.js/chart.min.js"></script>
+    <!--Slick js-->
+    <script src="assets/js/plugin/slick/slick.js"></script>
     <!--custom code javascript code-->
     <script src="assets/js/index.js"></script>
-
+    <!--custom code javascript code-->
+    <script src="assets/js/custom.js"></script>
     <!--custom code for chart-->
     <script src="assets/js/custom_chart.js"></script>
 </body>
