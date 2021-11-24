@@ -1,5 +1,4 @@
 .apexcharts-canvas{
-    // padding-top: 1rem;
     .apexcharts-xaxis-tick{
         display: none;
     }
@@ -46,14 +45,13 @@
     align-items: center !important;
 }
 .canvas-container{
-    padding-top: 1rem;
-    height: 314px;
+    max-height: 310px;
     .height-chart{
-        max-height: 314px;
+        max-height: 310px !important;
     }
 }
 .height-chart_js_donut{
-    max-height: 450px;
+    min-height: 380px;
 }
 .legend-ic{
     width: 10px;

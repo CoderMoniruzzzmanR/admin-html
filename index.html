@@ -14,12 +14,14 @@
 
     <!--Themify-icon link-->
     <link href="assets/css/plugin/themify-icon/themify-icons.css" rel="stylesheet"/>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet"/>
     <!--Slick link-->
     <link href="assets/css/plugin/slick/slick.css" rel="stylesheet"/>
     <!--Animated link-->
     <link href="assets/css/plugin/animate.css/animated.css" rel="stylesheet"/>
     <!--style link-->
     <link href="assets/min-css/index.min.css" rel="stylesheet"/>
+
 </head>
 <body >
     <div id="app" class="main-page">
@@ -555,28 +557,27 @@
                     <!--begin::Row-->
                     <div class="row mt-30">
                         <!--begin::col-lg-7-->
-                        <div class="col-lg-5">
+                        <div class="col-xxl-8 col-xl-8">
                             <!--begin::Card-->
                             <div class="card card-sm ">
-                                <!--begin::Card-body-->
-                                <div class="card-body boder-radius-around">
-                                    <!--begin::Balance-content-->
-                                    <div class="balance-content">
-                                        <h4>
-                                            Current Balance
-                                            <span class="label">
-                                                <span class="badge bg-success-soft">
-                                                    +3.5%
-                                                </span>
-                                                than last month
+                                <!--begin::Card-header-->
+                                <div class="card-header content-header">
+                                    <h4>
+                                        Current Balance
+                                        <span class="label">
+                                            <span class="badge bg-success-soft">
+                                                +3.5%
                                             </span>
-                                        </h4>
-                                        <span class="price">
-                                            $25,456.44 
-                                            
+                                            than last month
                                         </span>
-                                    </div>
-                                    <!--end::Balance-content-->
+                                    </h4>
+                                    <span class="price">
+                                        $25,456.44 
+                                    </span>
+                                </div>
+                                <!--end::Card-header-->
+                                <!--begin::Card-body-->
+                                <div class="card-body pt-0 pb-0 boder-radius-around">
                                     <!--begin::Tab-content-->
                                         <div id="chartBar2"></div>
                                     <!--end::Tab-content-->
@@ -586,8 +587,418 @@
                             <!--end::Card-->
                         </div>
                         <!--end::col-lg-7-->
+                       
+                         <!--begin::col-lg-3-->
+                         <div class="col-xl-4">
+                            <!--begin::Card-->
+                            <div class="card card-sm ">
+                                <!--begin::Card-header-->
+                                <div class="card-header content-header">
+                                    <h4>
+                                        Delivered Orders
+                                        <span class="label">
+                                            <span class="badge bg-danger-soft">
+                                                +3.5%
+                                            </span>
+                                            than last week
+                                        </span>
+                                    </h4>
+                                    <span class="price">
+                                        25,456
+                                    </span>
+                                </div>
+                                <!--end::Card-header-->
+                                <!--begin::Card-body-->
+                                <div class="card-body pt-0 custom-card_body_height boder-radius-around">
+                                    <!--begin::Tab-content-->
+                                    <div class="canvas-container">
+                                        <canvas id="chartjs-3" class="chartjs height-chart"></canvas>
+                                    </div>
+                                    <!--end::Tab-content-->
+                                    <!--begin::Order-content-->
+                                    <div class="order-content">
+                                        <div class="pending-order">
+                                            <span class="heading">
+                                            <span class="legend-ic bg-orange"></span>
+                                                Pending
+                                            </span>
+                                            <span class="hints">
+                                                19,000 than last week
+                                            </span>
+                                        </div>
+                                        <div class="cancel-order">
+                                            <span class="heading"><span class="legend-ic bg-danger"></span>Cancel</span>
+                                            <span class="hints">
+                                                11,000 than last week
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <!--end::Order-content-->
+                                </div>
+                                <!--end::Card-body-->
+                            </div>
+                            <!--end::Card-->
+                        </div>
+                        <!--end::col-lg-3-->
+                    </div>
+                    <!--end::Row-->
+                     <!--begin::Row-->
+                     <div class="row mt-30">
                         <!--begin::col-lg-3-->
-                         <div class="col-xl-3 popular-product">
+                        <div class="col-xl-5 col-xxl-4 col-lg-4 popular-product">
+                            <!--begin::Card-->
+                            <div class="card card-sm ">
+                                <!--begin::Card-header-->
+                                <div class="card-header boder-b-n">
+                                    <!--begin::Heading-->
+                                    <h4>Popular Product</h4>
+                                    <!--end::Heading-->
+                                    <!--begin::Header-toolbar-->
+                                    <div class="header-toolbar">
+                                        <a href="#" class="view-all-btn">view all</a>
+                                    </div>
+                                    <!--end::Header-toolbar-->
+                                </div>
+                                <!--end::Card-header-->
+                                <!--begin::Card-body-->
+                                 <div class="card-body custom-card_body_height">
+                                    <!--begin::List-group-->
+                                    <div class="list-group list-main">
+                                         <!--begin::List-group-item-->
+                                         <div class="list-group-item">
+                                            <div class="row">
+                                                <div class="col-auto">
+                                                    <a href="#" class="image">
+                                                        <img src="./assets/img/item1.png" alt="...">
+                                                    </a>
+                                                </div>
+                                                <div class="col info">
+                                                    <h4>
+                                                        <a href="#">Homepage Redesign
+                                                        </a>
+                                                    </h4>
+                                                    <p class="small-text"><time datetime="2022-01-01">Updated 4hr ago</time>
+                                                    </p>
+                                                </div>
+                                                <div class="col-auto">
+                                                    <button class="btn btn-icon-arrow bg-pupple-soft">
+                                                        <i class="fas fa-long-arrow-alt-right"></i>
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!--end::List-group-item-->
+                                        <!--begin::List-group-item-->
+                                        <div class="list-group-item">
+                                            <div class="row">
+                                                <div class="col-auto">
+                                                    <a href="#" class="image">
+                                                        <img src="./assets/img/item1.png" alt="...">
+                                                    </a>
+                                                </div>
+                                                <div class="col info">
+                                                    <h4>
+                                                        <a href="#">Homepage Redesign
+                                                        </a>
+                                                    </h4>
+                                                    <p class="small-text"><time datetime="2022-01-01">Updated 4hr ago</time>
+                                                    </p>
+                                                </div>
+                                                <div class="col-auto">
+                                                    <button class="btn btn-icon-arrow bg-pupple-soft">
+                                                        <i class="fas fa-long-arrow-alt-right"></i>
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!--end::List-group-item-->
+                                        <!--begin::List-group-item-->
+                                        <div class="list-group-item">
+                                            <div class="row">
+                                                <div class="col-auto">
+                                                    <a href="#" class="image">
+                                                        <img src="./assets/img/item1.png" alt="...">
+                                                    </a>
+                                                </div>
+                                                <div class="col info">
+                                                    <h4>
+                                                        <a href="#">Homepage Redesign
+                                                        </a>
+                                                    </h4>
+                                                    <p class="small-text"><time datetime="2022-01-01">Updated 4hr ago</time>
+                                                    </p>
+                                                </div>
+                                                <div class="col-auto">
+                                                    <button class="btn btn-icon-arrow bg-pupple-soft">
+                                                        <i class="fas fa-long-arrow-alt-right"></i>
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!--end::List-group-item-->
+                                        <!--begin::List-group-item-->
+                                        <div class="list-group-item">
+                                            <div class="row">
+                                                <div class="col-auto">
+                                                    <a href="#" class="image">
+                                                        <img src="./assets/img/item1.png" alt="...">
+                                                    </a>
+                                                </div>
+                                                <div class="col info">
+                                                    <h4>
+                                                        <a href="#">Homepage Redesign
+                                                        </a>
+                                                    </h4>
+                                                    <p class="small-text"><time datetime="2022-01-01">Updated 4hr ago</time>
+                                                    </p>
+                                                </div>
+                                                <div class="col-auto">
+                                                    <button class="btn btn-icon-arrow bg-pupple-soft">
+                                                        <i class="fas fa-long-arrow-alt-right"></i>
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!--end::List-group-item-->
+                                        <!--begin::List-group-item-->
+                                        <div class="list-group-item">
+                                            <div class="row">
+                                                <div class="col-auto">
+                                                    <a href="#" class="image">
+                                                        <img src="./assets/img/item1.png" alt="...">
+                                                    </a>
+                                                </div>
+                                                <div class="col info">
+                                                    <h4>
+                                                        <a href="#">Homepage Redesign
+                                                        </a>
+                                                    </h4>
+                                                    <p class="small-text"><time datetime="2022-01-01">Updated 4hr ago</time>
+                                                    </p>
+                                                </div>
+                                                <div class="col-auto">
+                                                    <button class="btn btn-icon-arrow bg-pupple-soft">
+                                                        <i class="fas fa-long-arrow-alt-right"></i>
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!--end::List-group-item-->
+                                    </div>
+                                    <!--end::List-group-->
+                                </div>
+                                <!--end::Card-header-->
+                            </div>
+                            <!--end::Card-->
+                        </div>
+                        <!--end::col-lg-3-->
+                        <!--begin::col-lg-8-->
+                        <div class="col-xl-7 col-xxl-8 col-lg-8">
+                            <!--begin::Card-->
+                            <div class="card card-sm">
+                                <!--begin::Card-header-->
+                                <div class="card-header boder-b-n">
+                                    <!--begin::Heading-->
+                                    <h4>Recent Transition</h4>
+                                    <!--end::Heading-->
+                                    <!--begin::Header-toolbar-->
+                                    <div class="header-toolbar">
+                                        <a href="#" class="view-all-btn">view all</a>
+                                    </div>
+                                    <!--end::Header-toolbar-->
+                                </div>
+                                <!--end::Card-header-->
+                                <!--begin::Card-body-->
+                                <div class="card-body custom-card_body_height p-0">
+                                    <div class="table-responsive dashboard-table">
+                                        <table class="table">
+                                            <tbody>
+                                                <tr>
+                                                    <td class="a-image">
+                                                        <div class="symbol">
+                                                            <span class="symbol-label">
+                                                                <img src="/assets/img/profile-8.jpg"  alt="">
+                                                            </span>
+                                                        </div>
+                                                        <div>
+                                                            <a href="#" class="btn-u">
+                                                                Keanu Reeves
+                                                            </a>
+                                                            <span class="time-hints"> 
+                                                                1 hour ago
+                                                            </span>
+                                                        </div>
+                                                    </td>
+                                                    <td>
+                                                        <span class="price">
+                                                            $4,600,000
+                                                        </span>
+                                                        <span class="trans-i">
+                                                            <strong>Trans:</strong> 
+                                                            #12323423
+                                                        </span>
+                                                    </td>
+                                                    <td>
+                                                        <span class="badge bg-success-soft">In Progress</span>
+                                                    </td>
+                                                    <td>
+                                                        <button class="btn btn-icon bg-pupple-soft">
+                                                            <i class="ti-more-alt"></i>
+                                                        </button>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="a-image">
+                                                        <div class="symbol">
+                                                            <span class="symbol-label">
+                                                                <img src="/assets/img/profile-8.jpg"  alt="">
+                                                            </span>
+                                                        </div>
+                                                        <div>
+                                                            <a href="#" class="btn-u">
+                                                                Keanu Reeves
+                                                            </a>
+                                                            <span class="time-hints"> 
+                                                                1 hour ago
+                                                            </span>
+                                                        </div>
+                                                    </td>
+                                                    <td>
+                                                        <span class="price">
+                                                            $4,600,000
+                                                        </span>
+                                                        <span class="trans-i">
+                                                            <strong>Trans:</strong> 
+                                                            #12323423
+                                                        </span>
+                                                    </td>
+                                                    <td>
+                                                        <span class="badge bg-orange-soft">Pending</span>
+                                                    </td>
+                                                    <td>
+                                                        <button class="btn btn-icon bg-pupple-soft">
+                                                            <i class="ti-more"></i>
+                                                        </button>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="a-image">
+                                                        <div class="symbol">
+                                                            <span class="symbol-label">
+                                                                <img src="/assets/img/profile-8.jpg"  alt="">
+                                                            </span>
+                                                        </div>
+                                                        <div>
+                                                            <a href="#" class="btn-u">
+                                                                Keanu Reeves
+                                                            </a>
+                                                            <span class="time-hints"> 
+                                                                1 hour ago
+                                                            </span>
+                                                        </div>
+                                                    </td>
+                                                    <td>
+                                                        <span class="price">
+                                                            $4,600,000
+                                                        </span>
+                                                        <span class="trans-i">
+                                                            <strong>Trans:</strong> 
+                                                            #12323423
+                                                        </span>
+                                                    </td>
+                                                    <td>
+                                                        <span class="badge bg-orange-soft">Pending</span>
+                                                    </td>
+                                                    <td>
+                                                        <button class="btn btn-icon bg-pupple-soft">
+                                                            <i class="ti-more"></i>
+                                                        </button>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="a-image">
+                                                        <div class="symbol">
+                                                            <span class="symbol-label">
+                                                                <img src="/assets/img/profile-8.jpg"  alt="">
+                                                            </span>
+                                                        </div>
+                                                        <div>
+                                                            <a href="#" class="btn-u">
+                                                                Keanu Reeves
+                                                            </a>
+                                                            <span class="time-hints"> 
+                                                                1 hour ago
+                                                            </span>
+                                                        </div>
+                                                    </td>
+                                                    <td>
+                                                        <span class="price">
+                                                            $4,600,000
+                                                        </span>
+                                                        <span class="trans-i">
+                                                            <strong>Trans:</strong> 
+                                                            #12323423
+                                                        </span>
+                                                    </td>
+                                                    <td>
+                                                        <span class="badge bg-success-soft">In Progress</span>
+                                                    </td>
+                                                    <td>
+                                                        <button class="btn btn-icon bg-pupple-soft">
+                                                            <i class="ti-more"></i>
+                                                        </button>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="a-image">
+                                                        <div class="symbol">
+                                                            <span class="symbol-label">
+                                                                <img src="/assets/img/profile-8.jpg"  alt="">
+                                                            </span>
+                                                        </div>
+                                                        <div>
+                                                            <a href="#" class="btn-u">
+                                                                Keanu Reeves
+                                                            </a>
+                                                            <span class="time-hints"> 
+                                                                1 hour ago
+                                                            </span>
+                                                        </div>
+                                                    </td>
+                                                    <td>
+                                                        <span class="price">
+                                                            $4,600,000
+                                                        </span>
+                                                        <span class="trans-i">
+                                                            <strong>Trans:</strong> 
+                                                            #12323423
+                                                        </span>
+                                                    </td>
+                                                    <td>
+                                                        <span class="badge bg-danger-soft">Declined</span>
+                                                    </td>
+                                                    <td>
+                                                        <button class="btn btn-icon bg-pupple-soft">
+                                                            <i class="ti-more"></i>
+                                                        </button>
+                                                    </td>
+                                                </tr>
+
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                                <!--end::Card-header-->
+                            </div>
+                            <!--end::Card-->
+                        </div>
+                        <!--end::col-lg-8-->
+                    </div>
+                    <!--end::Row-->
+                    <!--begin::Row-->
+                    <div class="row mt-30">
+                        <!--begin::col-lg-3-->
+                         <div class="col-xl-4 popular-product">
                             <!--begin::Card-->
                             <div class="card card-sm ">
                                 <!--begin::Card-header-->
@@ -707,71 +1118,14 @@
                             <!--end::Card-->
                         </div>
                         <!--end::col-lg-3-->
-                         <!--begin::col-lg-3-->
-                         <div class="col-xl-4">
+                        <!--begin::col-lg-3-->
+                        <div class="col-xl-4 popular-product">
                             <!--begin::Card-->
                             <div class="card card-sm ">
-                                <!--begin::Card-body-->
-                                <div class="card-body height-chart_js_donut boder-radius-around">
-                                    <!--begin::Balance-content-->
-                                    <div class="balance-content">
-                                        <h4>
-                                            Delivered Orders
-                                            <span class="label">
-                                                <span class="badge bg-danger-soft">
-                                                    +3.5%
-                                                </span>
-                                                than last week
-                                            </span>
-                                        </h4>
-                                        <span class="price">
-                                            25,456
-                                        </span>
-                                    </div>
-                                    <!--end::Balance-content-->
-                                    <!--begin::Tab-content-->
-                                    <div class="canvas-container">
-                                        <canvas id="chartjs-3" class="chartjs height-chart"></canvas>
-                                    </div>
-                                    <!--end::Tab-content-->
-                                    <!--begin::Order-content-->
-                                    <div class="order-content">
-                                        <div class="pending-order">
-                                            <span class="heading">
-                                            <span class="legend-ic bg-orange"></span>
-                                                Pending
-                                            </span>
-                                            <span class="hints">
-                                                19,000 than last week
-                                            </span>
-                                        </div>
-                                        <div class="cancel-order">
-                                            <span class="heading"><span class="legend-ic bg-danger"></span>Cancel</span>
-                                            <span class="hints">
-                                                11,000 than last week
-                                            </span>
-                                        </div>
-                                    </div>
-                                    <!--end::Order-content-->
-                                </div>
-                                <!--end::Card-body-->
-                            </div>
-                            <!--end::Card-->
-                        </div>
-                        <!--end::col-lg-3-->
-                    </div>
-                    <!--end::Row-->
-
-                     <!--begin::Row-->
-                     <div class="row mt-30">
-                        <!--begin::col-lg-8-->
-                        <div class="col-lg-6">
-                            <!--begin::Card-->
-                            <div class="card card-sm">
                                 <!--begin::Card-header-->
                                 <div class="card-header boder-b-n">
                                     <!--begin::Heading-->
-                                    <h4>Recent Transition</h4>
+                                    <h4>Popular Product</h4>
                                     <!--end::Heading-->
                                     <!--begin::Header-toolbar-->
                                     <div class="header-toolbar">
@@ -781,160 +1135,231 @@
                                 </div>
                                 <!--end::Card-header-->
                                 <!--begin::Card-body-->
-                                <div class="card-body custom-card_body_height">
-                                    <div class="table-responsive dashboard-table">
-                                        <table class="table">
-                                            <tbody>
-
-                                                <tr>
-                                                    <td class="w-50px">
-                                                        <div class="symbol">
-                                                            <span class="symbol-label">
-                                                                <img src="/assets/img/profile-8.jpg"  alt="">
-                                                            </span>
-                                                        </div>
-                                                    </td>
-                                                    <td class="w-150px">
-                                                        <a href="#" class="btn-u">
-                                                            Keanu Reeves
+                                 <div class="card-body custom-card_body_height">
+                                    <!--begin::List-group-->
+                                    <div class="list-group list-main">
+                                        
+                                        <!--begin::List-group-item-->
+                                        <div class="list-group-item">
+                                            <div class="row">
+                                                <div class="col-auto">
+                                                    <a href="#" class="image">
+                                                        <img src="./assets/img/item1.png" alt="...">
+                                                    </a>
+                                                </div>
+                                                <div class="col info">
+                                                    <h4>
+                                                        <a href="#">Homepage Redesign
                                                         </a>
-                                                        <span class="time-hints"> 
-                                                            1 hour ago
-                                                        </span>
-                                                    </td>
-                                                    <td class="w-140px text-end">
-                                                        <span class="price">
-                                                            $4,600,000
-                                                        </span>
-                                                        <span class="trans-i">
-                                                            <strong>Trans:</strong> 
-                                                            #12323423
-                                                        </span>
-                                                    </td>
-                                                    <td class="w-140px text-end">
-                                                        <span class="badge bg-success-soft">In Progress</span>
-                                                    </td>
-                                                    <td class="w-50px">
-                                                        <button class="btn btn-icon bg-pupple-soft">
-                                                            <i class="ti-more"></i>
-                                                        </button>
-                                                    </td>
-                                                </tr>
-
-                                                <tr>
-                                                    <td class="w-50px">
-                                                        <div class="symbol">
-                                                            <span class="symbol-label">
-                                                                <img src="/assets/img/profile-8.jpg"  alt="">
-                                                            </span>
-                                                        </div>
-                                                    </td>
-                                                    <td class="w-150px">
-                                                        <a href="#" class="btn-u">
-                                                            Keanu Reeves
+                                                    </h4>
+                                                    <p class="small-text"><time datetime="2022-01-01">Updated 4hr ago</time>
+                                                    </p>
+                                                </div>
+                                                <div class="col-auto">
+                                                    <div class="dropdown">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!--end::List-group-item-->
+                                        <!--begin::List-group-item-->
+                                        <div class="list-group-item">
+                                            <div class="row">
+                                                <div class="col-auto">
+                                                    <a href="#" class="image">
+                                                        <img src="./assets/img/item1.png" alt="...">
+                                                    </a>
+                                                </div>
+                                                <div class="col info">
+                                                    <h4>
+                                                        <a href="#">Homepage Redesign
                                                         </a>
-                                                        <span class="time-hints"> 
-                                                            1 hour ago
-                                                        </span>
-                                                    </td>
-                                                    <td class="w-140px text-end">
-                                                        <span class="price">
-                                                            $4,600,000
-                                                        </span>
-                                                        <span class="trans-i">
-                                                            <strong>Trans:</strong> 
-                                                            #12323423
-                                                        </span>
-                                                    </td>
-                                                    <td class="w-140px text-end">
-                                                        <span class="badge bg-orange-soft">Pending</span>
-                                                    </td>
-                                                    <td class="w-50px">
-                                                        <button class="btn btn-icon bg-pupple-soft">
-                                                            <i class="ti-more"></i>
-                                                        </button>
-                                                    </td>
-                                                </tr>
-
-                                                <tr>
-                                                    <td class="w-50px">
-                                                        <div class="symbol">
-                                                            <span class="symbol-label">
-                                                                <img src="/assets/img/profile-8.jpg"  alt="">
-                                                            </span>
-                                                        </div>
-                                                    </td>
-                                                    <td class="w-150px">
-                                                        <a href="#" class="btn-u">
-                                                            Keanu Reeves
+                                                    </h4>
+                                                    <p class="small-text"><time datetime="2022-01-01">Updated 4hr ago</time>
+                                                    </p>
+                                                </div>
+                                                <div class="col-auto">
+                                                    <div class="dropdown">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!--end::List-group-item-->
+                                        <!--begin::List-group-item-->
+                                        <div class="list-group-item">
+                                            <div class="row">
+                                                <div class="col-auto">
+                                                    <a href="#" class="image">
+                                                        <img src="./assets/img/item1.png" alt="...">
+                                                    </a>
+                                                </div>
+                                                <div class="col info">
+                                                    <h4>
+                                                        <a href="#">Homepage Redesign
                                                         </a>
-                                                        <span class="time-hints"> 
-                                                            1 hour ago
-                                                        </span>
-                                                    </td>
-                                                    <td class="w-140px text-end">
-                                                        <span class="price">
-                                                            $4,600,000
-                                                        </span>
-                                                        <span class="trans-i">
-                                                            <strong>Trans:</strong> 
-                                                            #12323423
-                                                        </span>
-                                                    </td>
-                                                    <td class="w-140px text-end">
-                                                        <span class="badge bg-success-soft">In Progress</span>
-                                                    </td>
-                                                    <td class="w-50px">
-                                                        <button class="btn btn-icon bg-pupple-soft">
-                                                            <i class="ti-more"></i>
-                                                        </button>
-                                                    </td>
-                                                </tr>
-
-                                                <tr>
-                                                    <td class="w-50px">
-                                                        <div class="symbol">
-                                                            <span class="symbol-label">
-                                                                <img src="/assets/img/profile-8.jpg"  alt="">
-                                                            </span>
-                                                        </div>
-                                                    </td>
-                                                    <td class="w-150px">
-                                                        <a href="#" class="btn-u">
-                                                            Keanu Reeves
+                                                    </h4>
+                                                    <p class="small-text"><time datetime="2022-01-01">Updated 4hr ago</time>
+                                                    </p>
+                                                </div>
+                                                <div class="col-auto">
+                                                    <div class="dropdown">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!--end::List-group-item-->
+                                        <!--begin::List-group-item-->
+                                        <div class="list-group-item">
+                                            <div class="row">
+                                                <div class="col-auto">
+                                                    <a href="#" class="image">
+                                                        <img src="./assets/img/item1.png" alt="...">
+                                                    </a>
+                                                </div>
+                                                <div class="col info">
+                                                    <h4>
+                                                        <a href="#">Homepage Redesign
                                                         </a>
-                                                        <span class="time-hints"> 
-                                                            1 hour ago
-                                                        </span>
-                                                    </td>
-                                                    <td class="w-140px text-end">
-                                                        <span class="price">
-                                                            $4,600,000
-                                                        </span>
-                                                        <span class="trans-i">
-                                                            <strong>Trans:</strong> 
-                                                            #12323423
-                                                        </span>
-                                                    </td>
-                                                    <td class="w-140px text-end">
-                                                        <span class="badge bg-danger-soft">Declined</span>
-                                                    </td>
-                                                    <td class="w-50px">
-                                                        <button class="btn btn-icon bg-pupple-soft">
-                                                            <i class="ti-more"></i>
-                                                        </button>
-                                                    </td>
-                                                </tr>
-                                                
-                                            </tbody>
-                                        </table>
+                                                    </h4>
+                                                    <p class="small-text"><time datetime="2022-01-01">Updated 4hr ago</time>
+                                                    </p>
+                                                </div>
+                                                <div class="col-auto">
+                                                    <div class="dropdown">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!--end::List-group-item-->
                                     </div>
+                                    <!--end::List-group-->
                                 </div>
                                 <!--end::Card-header-->
                             </div>
                             <!--end::Card-->
                         </div>
-                        <!--end::col-lg-8-->
+                        <!--end::col-lg-3-->
+                        <!--begin::col-lg-3-->
+                        <div class="col-xl-4 popular-product">
+                            <!--begin::Card-->
+                            <div class="card card-sm ">
+                                <!--begin::Card-header-->
+                                <div class="card-header boder-b-n">
+                                    <!--begin::Heading-->
+                                    <h4>Popular Product</h4>
+                                    <!--end::Heading-->
+                                    <!--begin::Header-toolbar-->
+                                    <div class="header-toolbar">
+                                        <a href="#" class="view-all-btn">view all</a>
+                                    </div>
+                                    <!--end::Header-toolbar-->
+                                </div>
+                                <!--end::Card-header-->
+                                <!--begin::Card-body-->
+                                 <div class="card-body custom-card_body_height">
+                                    <!--begin::List-group-->
+                                    <div class="list-group list-main">
+                                        
+                                        <!--begin::List-group-item-->
+                                        <div class="list-group-item">
+                                            <div class="row">
+                                                <div class="col-auto">
+                                                    <a href="#" class="image">
+                                                        <img src="./assets/img/item1.png" alt="...">
+                                                    </a>
+                                                </div>
+                                                <div class="col info">
+                                                    <h4>
+                                                        <a href="#">Homepage Redesign
+                                                        </a>
+                                                    </h4>
+                                                    <p class="small-text"><time datetime="2022-01-01">Updated 4hr ago</time>
+                                                    </p>
+                                                </div>
+                                                <div class="col-auto">
+                                                    <div class="dropdown">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!--end::List-group-item-->
+                                        <!--begin::List-group-item-->
+                                        <div class="list-group-item">
+                                            <div class="row">
+                                                <div class="col-auto">
+                                                    <a href="#" class="image">
+                                                        <img src="./assets/img/item1.png" alt="...">
+                                                    </a>
+                                                </div>
+                                                <div class="col info">
+                                                    <h4>
+                                                        <a href="#">Homepage Redesign
+                                                        </a>
+                                                    </h4>
+                                                    <p class="small-text"><time datetime="2022-01-01">Updated 4hr ago</time>
+                                                    </p>
+                                                </div>
+                                                <div class="col-auto">
+                                                    <div class="dropdown">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!--end::List-group-item-->
+                                        <!--begin::List-group-item-->
+                                        <div class="list-group-item">
+                                            <div class="row">
+                                                <div class="col-auto">
+                                                    <a href="#" class="image">
+                                                        <img src="./assets/img/item1.png" alt="...">
+                                                    </a>
+                                                </div>
+                                                <div class="col info">
+                                                    <h4>
+                                                        <a href="#">Homepage Redesign
+                                                        </a>
+                                                    </h4>
+                                                    <p class="small-text"><time datetime="2022-01-01">Updated 4hr ago</time>
+                                                    </p>
+                                                </div>
+                                                <div class="col-auto">
+                                                    <div class="dropdown">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!--end::List-group-item-->
+                                        <!--begin::List-group-item-->
+                                        <div class="list-group-item">
+                                            <div class="row">
+                                                <div class="col-auto">
+                                                    <a href="#" class="image">
+                                                        <img src="./assets/img/item1.png" alt="...">
+                                                    </a>
+                                                </div>
+                                                <div class="col info">
+                                                    <h4>
+                                                        <a href="#">Homepage Redesign
+                                                        </a>
+                                                    </h4>
+                                                    <p class="small-text"><time datetime="2022-01-01">Updated 4hr ago</time>
+                                                    </p>
+                                                </div>
+                                                <div class="col-auto">
+                                                    <div class="dropdown">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!--end::List-group-item-->
+                                    </div>
+                                    <!--end::List-group-->
+                                </div>
+                                <!--end::Card-header-->
+                            </div>
+                            <!--end::Card-->
+                        </div>
+                        <!--end::col-lg-3-->
                     </div>
                     <!--end::Row-->
                 </div>
@@ -959,8 +1384,9 @@
     <script src="assets/js/plugin/jQuery/jquery-3.6.0.min.js"></script>
     <!--Boostrap scripts-->
     <script src="assets/js/plugin/bootstrap/bootstrap.bundle.min.js"></script>
-     <!--Boostrap scripts-->
-     <script src="assets/js/plugin/moment/moment.js"></script>
+    <!--Boostrap scripts-->
+    <script src="assets/js/plugin/moment/moment.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/js/fontawesome.min.js"></script>
     <!--Apexchart scripts-->
     <script src="assets/js/plugin/apexchart/apexcharts.js"></script>
     <!--Chart js-->

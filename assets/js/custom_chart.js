@@ -25,7 +25,7 @@ let saleStaticDaily_options = {
       colors: ['#6259ca']
   },
   colors: ["#6259ca"],
-  chart: { height: '360', type: "area",
+  chart: { height: '380', type: "area",
     foreColor: '#76839a',
   },
   dataLabels: { enabled: false },
@@ -120,7 +120,7 @@ let saleStaticMontly_options = {
       colors: ['#6259ca']
   },
   colors: ["#6259ca"],
-  chart: { height: '360', type: "area",
+  chart: { height: '380', type: "area",
     foreColor: '#76839a',
   },
  
@@ -212,7 +212,7 @@ let saleStaticYearly_options = {
       colors: ['#6259ca']
   },
   colors: ["#6259ca"],
-  chart: { height: '370', type: "area",
+  chart: { height: '380', type: "area",
     foreColor: '#76839a',
   },
   dataLabels: { enabled: false },
@@ -258,7 +258,7 @@ let saleStaticYearly_options = {
       formatter: function (value) {
         var val = Math.abs(value); 
         if (val >= 1000) {
-          val = "$" + (val / 100) + "K";
+          val = "$" + (val / 1000) + "K";
           return val;
         } 
         else{
@@ -287,7 +287,7 @@ saleStaticYearly_chart.render();
       { name: "Profit", data: [5000, 1800, 7000, 4000, 9000, 5000] },
       { name: "Expenses", data: [8000, 4000, 5500, 2000, 5000, 7000] },
     ],
-    chart: { type: "bar", height: 357, toolbar: { show: false } },
+    chart: { type: "bar", height: 365, toolbar: { show: false } },
     plotOptions: { bar: { horizontal: false, columnWidth: "30", borderRadius: 5 } },
     states: { hover: { filter: "none" } },
     colors: ["#6259ca", "#fea246"],
