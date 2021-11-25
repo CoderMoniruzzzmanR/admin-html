@@ -1,38 +1,47 @@
 //google fonts
-
-
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 *{
     margin: 0px;
     padding: 0px;
     outline: 0px;
 }
+
 *, ::after, ::before {
     box-sizing: border-box;
 }
+
 body{
     background-color: var(--body-bg);
     font-family: $theme_font_family;
-    color: var(--text-color-primary);
+    color: var(--base-color);
 }
+
 img{
     max-width: 100%;
     height: auto;
     vertical-align: middle;
 }
+
 ul,ol{
     margin: 0px;
     list-style: none;
     padding: 0px;
 }
+
 h1,h2,h3,h4,h5,h6{
     padding: 0px;
     margin: 0px;
+    font-size: 16px;
+    color: var(--base-color);
 }
+
 a{
+    font-size: 14px;
     text-decoration: none;
     &:focus,&:hover{
         text-decoration: none;
+        color: var(--bs-purple);
     }
 }
 p{
@@ -43,28 +52,63 @@ p{
 /*===================
     Body-layer
 =====================*/
-.overlay-body-out{
-    position: fixed;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    overflow: hidden;
-    z-index: 109;
-    background-color: rgba(0,0,0,.2);
-    animation: animation-drawer-fade-in .3s ease-in-out 1;
-    display: none;
-}
-.overlay-body-in{
-    display: block;
-}
+// .overlay-body-out{
+//     position: fixed;
+//     width: 100%;
+//     height: 100%;
+//     top: 0;
+//     left: 0;
+//     bottom: 0;
+//     right: 0;
+//     overflow: hidden;
+//     z-index: 109;
+//     background-color: rgba(0,0,0,.2);
+//     animation: animation-drawer-fade-in .3s ease-in-out 1;
+//     display: none;
+// }
+// .overlay-body-in{
+//     display: block;
+// }
 .boder-radius-around{
     border-radius: 0.5rem;
 }
 
-//margin ----------------
+
+.green-bg{
+    background-color: #00d97e;
+    color: white;
+}
+.red-bg{
+    background-color: #ee335e;
+    color: white;
+}
+.yellow-bg{
+    background-color: #fea246;
+    color: white;
+}
+.pupple-bg{
+    background-color: #6259ca;
+    color: white;
+}
+.green-soft-bg{
+    background-color: #e6faf4;
+    color: #00d97e;
+}
+.red-soft-bg{
+    background-color: #fee9ed;
+    color: #ee335e;
+}
+.yellow-soft-bg{
+    background-color: #fff2e5;
+    color: #fea246;
+}
+.pupple-soft-bg{
+    background-color: #eaefff;
+    color: #6259ca;
+}
+
+
+//margin and padding
 
 .mt-30{
     margin-top: 30px;
@@ -94,7 +138,7 @@ p{
     margin-top: 60px;
 }
 
-//width
+//width and height
 .w-50px{
     width: 50px;
 }
@@ -119,3 +163,13 @@ p{
 .custom-card_body_height{
     min-height: 380px;
 }
+
+// .light-theme{
+//     --green-bg: #00d97e;
+//     --orange-bg: #fea246;
+//     --red-bg :#ee335e;
+//     --green-soft-bg: #e6faf4;
+//     --pupple-soft-bg: #eaefff;
+//     --orange-soft-bg: #fff2e5;
+//     --red-soft-bg :#fee9ed;
+// }

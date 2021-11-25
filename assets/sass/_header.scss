@@ -11,13 +11,13 @@
         height: 100px;
         padding: 0 25px;
         width: 250px;
-        border-bottom: 1px dashed var(--border-primary);
+        border-bottom: 1px dashed var(--base-border-color);
         flex-shrink: 0;
         display: flex;
         justify-content: space-between;
         align-items: center;
         background-color: var(--navbrand-bg);
-        border-right: 1px solid var(--navbrand-border);
+        border-right: 1px solid var(--base-border-color);
         z-index: 999;
         a{
             .logo{
@@ -26,10 +26,11 @@
                 height: 25px;
             }
         }
+
         .dark-button{
             width: 30px;
             height: 30px;
-            background-color: var(--darkicon-bg);
+            background-color: var(--bg-parmary);
             border-radius: 50%;
             display: flex;
             text-align: center;
@@ -51,7 +52,6 @@
         display: flex;
         align-items: center;
         width: 100%;
-        // border-bottom: 1px solid $theme_border_color;
         .container-fluid{
             padding: 0px 30px;
             flex-direction: row;
@@ -74,16 +74,16 @@
                     margin-bottom: 0px;
                     .breadcrumb-item{
                         a{
-                            color: var(--breadcrumb-item-color);
+                            color: var(--base-color-primary);
                         }
                         &.breadcrumb-active{
-                            color: var(--breadcrumb-item-active-color);
+                            color: var(--base-color-secondary);
                         }
                         &+.breadcrumb-item{
                             &::before {
                                 float: left;
                                 padding-right: 0.5rem;
-                                color: var(--gray-primary);
+                                color: var(--base-color-primary);
                                 content: "-";
                             }
                         }
@@ -108,13 +108,12 @@
                         height: 40px;
                         line-height: 40px;
                         text-align: center;
-                        color: var(--search-btn-color);
+                        color: var(--bs-white);
                         font-size: 14px;
                         font-weight: 900;
-                        border-right: 1px solid var(--border-primary);
-                        background: linear-gradient(to bottom right,var(--search-btn-bg));
+                        background: linear-gradient(to bottom right,var(  --base-gradient-bg));
                         border-radius: 0.95rem 0rem 0rem 0.95rem;
-                        border: 1px solid var(--search-border);
+                        border: 1px solid var(--base-border-color);
                     }
                     .form-control{
                         max-width: 240px;
@@ -124,13 +123,12 @@
                         box-shadow: none;
                         font-size: 14px;
                         height: 40px;
-                        border: 1px solid var(--border-primary);
+                        border: 1px solid var(--base-border-color);
                         background-color: transparent;
-                        color: var(--text-color);
-                        border-left: 1px solid var(--border-primary);
+                        color: var(--base-color-primary);
                         &:focus{
                             box-shadow: none;
-                            border: 1px solid var(--border-primary);
+                            border: 1px solid var(--base-border-color);
                         }
                     }
                 }
@@ -148,15 +146,15 @@
                             width: 40px;
                             height: 40px;
                             line-height: 40px;
-                            color: var(--action-color);
-                            border: 1px solid var(--action-border);
+                            color: var(--base-color-primary);
+                            border: 1px solid var(--base-border-color);
                             border-radius: 0.95rem;
                             transition: all linear 0.3s;
                             position: relative;
                             &:hover{
-                                background: linear-gradient(to bottom right,var(--action-hover-bg));
-                                color: var( --action-hover-color);
-                                border: 1px solid var(--action-hover-border);
+                                background: linear-gradient(to bottom right,var(--base-gradient-bg));
+                                color: var(--bs-white);
+                                border: 1px solid var(--base-border-color);
                             }
                             .badges{
                                 position: absolute;
@@ -166,7 +164,7 @@
                                 width: 7px;
                                 height: 7px;
                                 border-radius: 50%;
-                                background: #ee335e;
+                                background: var(--bs-red);
                                 box-shadow: 0 0 0 rgba(247, 45, 102, 0.9);
                                 animation: pulse 2s infinite;
                             }
@@ -182,7 +180,7 @@
                                 }
                             }
                             .bagde-orange{
-                                background: #f06445;
+                                background: var(--bs-yellow);
                                 box-shadow: 0 0 0 rgba(247, 124, 43, 0.9);
                                 animation: pulse-orange 2s infinite;
                             }
@@ -308,13 +306,9 @@
                             height: 35px;
                             line-height: 35px;
                             text-align: center;
-                            color: var(--search-btn-color);
                             font-size: 14px;
                             font-weight: 900;
-                            border-right: 1px solid var(--border-primary);
-                            background: linear-gradient(to bottom right,var(--search-btn-bg));
                             border-radius: 0.95rem 0rem 0rem 0.95rem;
-                            border: 1px solid var(--search-border);
                         }
                         .form-control{
                             max-width: 200px;
