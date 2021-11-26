@@ -1,13 +1,13 @@
 .card{
-    border-color: var(--card-border);
-    background-color: var(--card-bg);
-    border: 1px solid var(--card-border);
+    border-color: var(--base-border-color);
+    background-color: var(--box-bg);
+    border: 1px solid var(--base-border-color);
     border-radius: 0.5rem;
     box-shadow: 0 .75rem 1.5rem rgba(18,38,63,.03);
     .card-header{
-        border-bottom: 1px solid var(--card-border);
+        border-bottom: 1px solid var(--base-border-color);
         padding: 1.5rem 1.5rem;
-        background-color: var(--card-bg);
+        background-color: var(--box-bg);
         display: flex;
         flex-direction: row;
         align-items: center;
@@ -22,7 +22,7 @@
         }
     }
     .card-body{
-        background-color: var(--card-bg);
+        background-color: var(--box-bg);
         padding: 1.5rem 1.5rem;
         border-radius: 0rem 0rem 0.5rem 0.5rem;
         &.boder-radius-around{
@@ -34,9 +34,9 @@
 }
 .card-sm{
     font-weight: 500;
-    border: 1px solid var(--card-border);
+    border: 1px solid var(--base-border-color);
     h6{
-        color: var(--mini-card-color-gray);
+        color: var(--base-color-primary);
         letter-spacing: .08em;
         font-size: 10px;
         margin-bottom: 6px;
@@ -58,7 +58,7 @@
     .static{
         .text-mute{
             text-transform: capitalize;
-            color: var(--mini-card-color-gray);
+            color: var(--base-color-primary);
             font-size: 12px;
             margin-left: 5px;
         }
@@ -70,7 +70,7 @@
         text-align: center;
         font-size: 20px;
         border-radius: 50%;
-        color: var(--color-white);
+        color: var(--bs-white);
         &.icon-soft-pupple{
             background: var(--icon-soft-pupple);
             color: #496ee8;
@@ -89,7 +89,7 @@
         }
     }
     .card-header{
-        color: var(--mini-card-color-secondary);
+        color: var(--base-color);
         justify-content: space-between;
         display: flex;
         align-items: center;
@@ -101,10 +101,10 @@
             // letter-spacing: -.02em;
         }
         &.boder-b-n{
-            border-bottom: 1px solid var(--card-border);
+            border-bottom: 1px solid var(--base-border-color);
         }
         .view-all-btn{
-            color: var(--text-color-secondary);
+            color: var(--base-color-secondary);
             font-size: 13px;
         }
     }
@@ -115,9 +115,9 @@
             height: 0.5rem;
         }
         .card-progress{
-            border: 1px solid var(--card-border);
+            border: 1px solid var(--base-border-color);
             padding: 1rem 1.5rem 1rem 1.5rem;
-            background-color: var(--card-bg);
+            background-color: var(--box-bg);
             padding: 1.5rem 1.5rem;
             border-radius: 0.5rem 0.5rem;
             box-shadow: 0 0 30px rgba(146,153,184,.1);
@@ -141,13 +141,13 @@
                 }
                 &.info-left{
                     span{
-                        color: var(--mini-card-color-gray);
+                        color: var(--base-color-primary);
                     }
                 }
                 &.info-right{
                     text-align: right;
                     span{
-                        color: var(--mini-card-color-gray);
+                        color: var(--base-color-primary);
                     }
                 }
             }
@@ -158,7 +158,7 @@
             display: flex;
             align-items: center;
             .progress-previous{
-                color: var(--mini-card-color-gray);
+                color: var(--base-color-primary);
                 font-size: 12px;
                 font-weight: 500;
                 strong{

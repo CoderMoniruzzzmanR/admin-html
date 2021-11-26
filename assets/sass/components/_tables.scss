@@ -133,6 +133,9 @@
     }
     tr{
         border-bottom: 1px solid var(--base-border-color);
+        &:last-child{
+            border-bottom: none;
+        }
     }
     .a-image{
         display: flex;
@@ -195,7 +198,7 @@
 }
 .table{
     .badge{
-        font-size: 12px;
+        font-size: 10px;
         font-weight: 500;
         padding: 0.5em 0.85em;
     }    
