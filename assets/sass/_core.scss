@@ -110,7 +110,43 @@ p{
     color: #6259ca;
 }
 
-
+.avatar-online{
+    position: relative;
+    &::before{
+        content: '';
+        position: absolute;
+        bottom: 1%;
+        right: 2%;
+        width: 26%;
+        height: 26%;
+        border-radius: 50%;
+        background-color: var(--bg-parmary);
+    }
+    &::after{
+        content: '';
+        position: absolute;
+        bottom: 5%;
+        right: 5%;
+        width: 20%;
+        height: 20%;
+        border-radius: 50%;
+    }
+    &.active{
+        &::after{
+            background-color: var(--bs-green);
+        }
+    }
+    &.offline{
+        &::after{
+            background-color: var(--bs-gray-300);
+        }
+    }
+    &.recently{
+        &::after{
+            background-color: var(--bs-yellow);
+        }
+    }
+}
 //margin and padding
 
 .mt-30{
