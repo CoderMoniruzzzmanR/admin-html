@@ -2,33 +2,62 @@
     border-color: var(--base-border-color);
     background-color: var(--box-bg);
     border: 1px solid var(--base-border-color);
-    border-radius: 0.5rem;
+    border-radius: 0.95rem;
     box-shadow: 0 .75rem 1.5rem rgba(18,38,63,.03);
     .card-header{
         border-bottom: 1px solid var(--base-border-color);
-        padding: 1.5rem 1.5rem;
+        padding: 15px 25px;
         background-color: var(--box-bg);
         display: flex;
         flex-direction: row;
         align-items: center;
         text-transform: capitalize;
         &:first-child{
-            border-radius: calc(0.5rem - 1px) calc(0.5rem - 1px) 0 0;
+            border-radius: calc(0.95rem - 1px) calc(0.95rem - 1px) 0 0;
         }
         .card-title{
             margin-bottom: 0px;
             font-weight: 500;
             font-size: 14px;
         }
+        .label{
+            color: var(--base-color-primary);
+        }
+        .price{
+            color: var(--base-color-primary);
+            font-size: 14px;
+        }
+        .card-header-ellipsis{
+            font-size: 14px;
+            color: var(--base-color-primary);
+            background-color: var(--bg-parmary);
+            padding: 2px 7px;
+            box-shadow: none;
+            border: none;
+            &:focus{
+                box-shadow: none;
+                border: none;
+            }
+            &:hover{
+                color: var(--bs-white);
+                background-color: var(--ellipsis-hover-bg);
+            }
+        }
+        .header-toolbar{
+            display: flex;
+            align-items: center;
+        }
     }
     .card-body{
         background-color: var(--box-bg);
-        padding: 1.5rem 1.5rem;
-        border-radius: 0rem 0rem 0.5rem 0.5rem;
+        padding: 15px 25px;
+        border-radius: 0rem 0rem 0.95rem 0.95rem;
         &.boder-radius-around{
-            border-radius: 0.5rem 0.5rem;
+            border-radius: 0.95rem 0.95rem;
         }
-        
+        .hints{
+            color: var(--base-color-primary);
+        }
     }
    
 }
@@ -51,10 +80,6 @@
     .badge{
         font-weight: 400;
     }
-    .gray-soft,.danger-soft,.success-soft,.blue-soft{
-        font-size: 18px;
-        font-weight: 500;
-    }
     .static{
         .text-mute{
             text-transform: capitalize;
@@ -70,35 +95,18 @@
         text-align: center;
         font-size: 20px;
         border-radius: 50%;
-        color: var(--bs-white);
-        &.icon-soft-pupple{
-            background: var(--icon-soft-pupple);
-            color: #496ee8;
-        }
-        &.icon-soft-orange{
-            background:var(--icon-soft-orange);
-            color: #fea246;
-        }
-        &.icon-soft-pink{
-            background: var(--icon-soft-pink);
-            color: #f7284a;
-        }
-        &.icon-soft-fresh{
-            background: var(--icon-soft-fresh);
-            color: #35cf96;
-        }
     }
     .card-header{
         color: var(--base-color);
         justify-content: space-between;
         display: flex;
         align-items: center;
-        padding: 1rem 1.5rem 1rem 1.5rem;
+        padding: 15px 25px;
         height: 70px;
         h4{
+            color: var(--base-color);
             font-size: 16px;
             text-transform: capitalize;
-            // letter-spacing: -.02em;
         }
         &.boder-b-n{
             border-bottom: 1px solid var(--base-border-color);
@@ -109,33 +117,32 @@
         }
     }
     .card-body{
-        padding: 1rem 1.5rem 1rem 1.5rem;
+        padding: 15px 25px;
         .progress{
-            background-color: var( --bg-soft-pupple);
+            background-color: var(--progess-bar-bg);
             height: 0.5rem;
         }
         .card-progress{
             border: 1px solid var(--base-border-color);
-            padding: 1rem 1.5rem 1rem 1.5rem;
             background-color: var(--box-bg);
-            padding: 1.5rem 1.5rem;
+            padding: 15px 25px;
             border-radius: 0.5rem 0.5rem;
             box-shadow: 0 0 30px rgba(146,153,184,.1);
-            margin-top: 1rem;
+            margin-top: 15px;
             &:first-child{
-                margin-top: 0rem;
+                margin-top: 0px;
             }
         }
         .card-progress__info{
             justify-content: space-between;
             display: flex;
             align-items: center;
-            margin-bottom: 1rem;
+            margin-bottom: 15px;
             span{
                 display: block;
                 letter-spacing: .02em;
-                font-size: 12px;
-                text-transform: uppercase;
+                font-size: 13px;
+                text-transform: capitalize;
                 strong{
                     font-size: 16px;    
                 }
@@ -153,13 +160,13 @@
             }
         }
         .progress-view{
-            margin-top: 1rem;
+            margin-top: 15px;
             justify-content: space-between;
             display: flex;
             align-items: center;
             .progress-previous{
                 color: var(--base-color-primary);
-                font-size: 12px;
+                font-size: 13px;
                 font-weight: 500;
                 strong{
                     font-size: 13px;
@@ -173,18 +180,22 @@
         }
     }
 }
-// .card-sm{
-//     .card-body{
-//         .card-progress{
-//             background: #fff;
-//             -webkit-box-shadow: 0 10px 30px rgb(146 153 184 / 15%);
-//             box-shadow: 0 10px 30px rgb(146 153 184 / 15%);
-//             -webkit-border-radius: 10px;
-//             border-radius: 10px;
-//             padding: 1rem 1.5rem 1rem 1.5rem;
-//             margin-bottom: 1rem;
-//         }
-//     }
-// }
+.over-view-card {
+    .over-view{
+        .card-header-ellipsis{
+            color: var(--bs-white);
+            background-color: #9e88f5;
+            border: none;
+            padding: 2px 7px;
+            &:focus{
+                border: none;
+                box-shadow: none;
+            }
+            &:hover{
+                color: var(--bs-white);
+            }
+        }
+    }
+}
 
 

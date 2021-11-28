@@ -1,5 +1,6 @@
 @import './core';
 @import './components/list';
+@import './components/dropdown';
 @import './components/card';
 @import './components/tables';
 @import './components/badge';
@@ -12,9 +13,9 @@
     .container-fluid{
         padding: 0px 30px;
     }
-    .page-top-border{
-        border-top: 1px dashed var(--border-primary);
-        margin: 0px 30px;
+    .page-top-border,.page-footer-border{
+        border-top: 1px dashed var(--base-border-color);
+        margin: var(--margin-top-footer);
     }
     .wrapper-content{
         margin-top: 30px;
@@ -130,7 +131,7 @@
 .over-view-card{
     .card-header{
         display: block;
-        background: linear-gradient(to left,var(--pupple-bg-color),var( --danger-bg-color));
+        background: linear-gradient(to left,var(--bs-purple),var( --bs-red));
         min-height: 165px;
         &.boder-b-n{
             border-bottom: none;
@@ -142,11 +143,11 @@
         align-items: center;
         h4{
             font-size: 16px;
-            color: var(--color-white);
+            color: var(--bs-white);
         }
         .btn-icon{
             i{
-                color: var(--color-white);
+                color: var(--bs-white);
             }
         }
     }
@@ -165,7 +166,7 @@
 .daily-activity{
     .card-body{
         // min-height: calc(100% - 60px);
-        height: calc(380px - 60px);
+        height: calc(535px - 60px);
         overflow-y: auto;
         .image{
             display: inline-block;
@@ -180,6 +181,60 @@
             }
         }
     }
+}
+
+
+.sales-by-location{
+    .list-main{
+        .list-group-item{
+            border-bottom: none;
+            padding-top: 0px;
+        }
+    }
+    .country-image-sm{
+        display: inline-block;
+        color: var(--base-color);
+        font-size: 14px;
+        font-weight: 600;
+        img{
+            width: 30px;
+            height: 20px;
+            margin-right: 15px;
+            border-radius: 4px;
+        }
+    }
+    .balance{
+        display: flex;
+        padding-bottom: 15px;
+        span{
+            margin-top: 10px;
+            margin-right: 2px;
+        }
+        strong{
+            font-size: 36px;
+        }
+        .label{
+            margin-left: 5px;
+        }    
+    }
+    .info{
+        span{
+            font-size: 14px;
+            font-weight: 600;
+        }
+        .count{
+           margin-right: 15px;
+        }
+        .icon-p{
+            font-size: 12px;
+            margin-right: 5px;
+        }
+    }
+    .percentage,.count{
+        color: var(--base-color);
+    }
+
+  
 }
 
 
@@ -204,7 +259,6 @@
             padding: 0px 15px;
         }
         .page-top-border{
-            border-top: 1px dashed var(--border-primary);
             margin: 0px 15px;
         }
         .wrapper-content{
@@ -223,7 +277,6 @@
             padding: 0px 15px;
         }
         .page-top-border{
-            border-top: 1px solid var(--border-primary);
             margin: 0px 15px;
         }
         .wrapper-content{

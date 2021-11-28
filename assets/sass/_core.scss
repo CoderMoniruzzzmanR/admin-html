@@ -52,6 +52,27 @@ p{
     margin: 0px;
 }
 
+::-webkit-scrollbar {
+    width: 6px;
+    height: 4px;
+}
+::-webkit-scrollbar-track{
+    background: var(--scroll-bg);
+}
+::-webkit-scrollbar-thumb{
+    background-color: var(--scroll-thumb-bg) ;
+    border-radius: 6px;
+}
+body::-webkit-scrollbar{
+    width: 8px;
+}
+body::-webkit-scrollbar-track{
+    background: var(--scroll-bg);
+}
+body::-webkit-scrollbar-thumb{
+    background-color: var(--scroll-thumb-bg) ;
+    border-radius: 6px;
+}
 /*===================
     Body-layer
 =====================*/
@@ -97,6 +118,55 @@ p{
     background-color: #e6faf4;
     color: #00d97e;
 }
+
+.color-purple{
+    color: #6259ca;
+}
+.color-yellow{
+    color: #fea246;
+}
+.yellow-bg{
+    background-color: #fea246;
+}
+.purple-bg{
+    background-color: #6259ca;
+}
+.green-bg{
+    background-color: #00d97e;
+}
+.danger-bg{
+    background-color: #ee335e;
+}
+.success-bg{
+    background-color: #b8d935;
+}
+.green{
+    color: #00d97e;
+}
+.danger{
+    color: #ee335e;
+}
+.success{
+    color: #b8d935;
+}
+// .color-purple{
+//     color: #6259ca;
+// }
+.success-soft-bg{
+    background-color: #f4fbdb;
+    color: #b8d935;
+    &:hover{
+        color: #b8d935;
+    }
+}
+
+.danger-soft-bg{
+    background-color: #fee9ed;
+    color: #ee335e;
+    &:hover{
+        color: #ee335e;
+    }
+}
 .red-soft-bg{
     background-color: #fee9ed;
     color: #ee335e;
@@ -109,7 +179,29 @@ p{
     background-color: #eaefff;
     color: #6259ca;
 }
+.gray-soft-bg{
+    background-color: var( --bg-parmary);
+    color: var(--base-color-primary);
+}
+.dollar{
+    color: var(--base-color-primary);
+}
+.bg-purple{
+    background: var(--pupple-bg-color);
+}
 
+.bg-orange{
+    background: var(--orange-bg-color);
+}
+
+.custom-card_body_height{
+    min-height: 380px;
+}
+.stack-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 .avatar-online{
     position: relative;
     &::before{
@@ -133,7 +225,7 @@ p{
     }
     &.active{
         &::after{
-            background-color: var(--bs-green);
+            background-color: var(--bs-success);
         }
     }
     &.offline{
@@ -146,6 +238,10 @@ p{
             background-color: var(--bs-yellow);
         }
     }
+}
+
+.fn-sm{
+
 }
 //margin and padding
 
@@ -187,21 +283,7 @@ p{
 .w-140px{
     width: 140px;
 }
-.bg-purple{
-    background: var(--pupple-bg-color);
-}
-.color-purple{
-    color: var(--pupple-color);
-}
-.bg-orange{
-    background: var(--orange-bg-color);
-}
-.color-orange{
-    color: var(--orange-color);
-}
-.custom-card_body_height{
-    min-height: 380px;
-}
+
 
 // .light-theme{
 //     --green-bg: #00d97e;

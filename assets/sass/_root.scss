@@ -4,10 +4,14 @@
     --body-bg: #f9fbfd;
     --base-color: #12263f;
 
+    --scroll-bg:#eaefff;
+    --scroll-thumb-bg:#9e88f5;
+
     --base-color-primary:#76839a;
     --base-color-secondary: #6259ca;
     --base-gradient-bg: #9e88f5 0,#6259ca;
     --header-bg: #f9fbfd;
+    --footer-bg: #f9fbfd;
     --navbrand-bg : #fff;
     --sidebar-bg: #fff;
     --bg-parmary: #f5f6fa;
@@ -20,7 +24,9 @@
 
     --base-border-color: #edf2f9;
     --base-border-parimary: #e3ebf6;
+    --progess-bar-bg: #eaefff;
 
+    --bs-success: #b8d935;
     --bs-green : #00d97e;
     --bs-red: #ee335e;
     --bs-yellow : #fea246;
@@ -30,233 +36,30 @@
     --bs-gray-300 :#b1c2d9;
     
     --bs-gray-500: #76839a;
-    
-
-    
-  
-    
-
-
-    --darkicon-bg: #f5f6fa;
-    --box-bg-primary: #fff;
-    
-    --text-color-primary: #12263f;
-    --text-color-secondary: #6259ca;
-    --text-color: #76839a;
-    --border-primary : #edf2f9;
-    // --navbrand-bg : #fff;
-    --navbrand-border : #edf2f9;
-  
-    --sidebar-border: #edf2f9;
-    --gray-primary: #76839a;
-   
-    --sidebarmenu-heading-color:#76839a;
-    --color-gray:#76839a;
-    --bg-whitegray: #f5f6fa;
-    --color-white: #fff;
-    --pupple-bg-color: #6259ca;
-    --pupple-color: #6259ca;
-    --orange-bg-color:#fea246;
-    --orange-color: #fea246;
-    --danger-bg-color :#ee335e;
-    --danger-color :#ee335e;
-    --success-bg-color: #00d97e;
-    --success-color: #00d97e;
-    --bg-soft-pupple: #eaefff;
-    --bg-soft-orange:#fff2e5;
-    --bg-soft-pink:#fee9ed;
-    --bg-soft-fresh:#e6faf4;
-
-    
-    --green-color: #00d97e;
-    --pupple-color: #6259ca;
-    --orange-color: #fea246;
-    --red-color :#ee335e;
-    --color-base: #12263f;
-    --color-primary:#76839a;
-    --page-bg: #f9fbfd;
-    --green-bg: #00d97e;
-    --pupple-bg: #6259ca;
-    --orange-bg: #fea246;
-    --red-bg :#ee335e;
-    --green-soft-bg: #e6faf4;
-    --pupple-soft-bg: #eaefff;
-    --orange-soft-bg: #fff2e5;
-    --red-soft-bg :#fee9ed;
-    --base-border-color: #edf2f9;
-
-    .search{
-        --search-btn-bg: #9e88f5 0,#6259ca;
-        --search-btn-color: #fff;
-    }
-    .card{
-        --card-border: #edf2f9;
-        --card-bg: #fff;
-        --search-border: #6259ca;
-        --mini-card-bg: transparent;
-        --mini-card-color-gray: #76839a;
-        --mini-card-color-primary: transparent;
-        --mini-card-color-secondary: #12263f;
-    }
-    .table{
-        --table-bg: transparent;
-        --table-head-color: #76839a;
-        --table-body-text-color:#12263f;
-        --table-boder: #edf2f9;
-    }
-    --table-seacrh-boder: #edf2f9;
-    --table-option-color: #76839a;
-    --table-option-bg: transparent;
-    --table-disable-color:#76839a;
-    --table-active-bg: #9e88f5 0,#6259ca;
-    --table-active-color: #fff;
-    --table-active-boder: #6259ca;
-    .header-action{
-        --action-color: #76839a;
-        --action-border: #edf2f9;
-        --action-bg: transparent;
-        --action-hover-color: #fff;
-        --action-hover-bg: #9e88f5 0,#6259ca;
-        --action-hover-border: #6259ca;
-    }
-    .footer{
-        --footer-border : #edf2f9;
-        --footer-color-primary: #76839a;
-        --footer-color:#17171E;
-    }
-    .badge,.card{
-        --color-white: #fff;
-        --bg-success-soft:#e6faf4;
-        --success-soft-color :#35cf96;
-        --bg-danger-soft:#fee9ed;
-        --success-soft-color: #00d97e;
-        --danger-soft-color :#f7284a;
-        --danger-soft-color :#ee335e;
-        --gray-soft-color: #76839a;
-        --blue-soft-color: #2c7be5;
-        --bg-soft-pupple:#eaefff;
-        --pupple-soft-color: #6259ca;
-        --bg-soft-orange:#fff2e5;
-        --orange-soft-color:#fea246;
-        --bg-soft-pupple: #eaefff;
-        --bg-soft-orange:#fff2e5;
-        --bg-soft-pink:#fee9ed;
-        --bg-soft-fresh:#e6faf4;
-        --pupple-bg-color: #6259ca;
-        .icon{
-            --icon-soft-pupple: #eaefff;
-            --icon-soft-orange:#fff2e5;
-            --icon-soft-pink:#fee9ed;
-            --icon-soft-fresh:#e6faf4;
-        }
-        .list-group{
-            --list-bg: transparent;
-            --list-item-bg: transparent;
-        }
-    }
-    .header-toolbar{
-        --link-bg: transparent;
-        --link-color: #76839a;
-        --active-link-bg: #eaefff;
-        --active-link-color: #6259ca;
-    }
-    .legend-ic{
-        --pupple-soft-color: #6259ca;
-        --orange-soft-color:#fea246;
-        --danger-soft-color :#ee335e;
-    }
-    .over-view-card{
-        --pupple-bg-color: rgba(98, 89, 202, 0.788);
-        --orange-bg-color:#fea246;
-        --danger-bg-color :rgba(238, 51, 95, 0.733);
-        --color-white: #fff;
-    }
+    --margin-top-footer: 0px 30px;
+    --tabnav-active-bg: #eaefff;
+    --ellipsis-hover-bg: #9e88f5;
 }
-.light-theme{
-        
-}
+
 
 .dark-theme{
+    --scroll-bg:#212130;
+    --scroll-thumb-bg:#9e88f5;
+
     --body-bg: #17171E;
     --base-color: #fff;
     --base-color-primary:#76839a;
     --base-color-secondary: #6259ca;
     --base-border-color: #2e2e42;
+    --header-bg: #212130;
+    --footer-bg: #212130;
     --navbrand-bg : #212130;
     --sidebar-bg: #212130;
     --bg-parmary: #17171E;
     --box-bg: #212130;
     --box-bg-primary: #212130;
     --menu-item-active-bg: #9e88f5 0,#6259ca;
+    --progess-bar-bg: #17171E;
+    --margin-top-footer: 0px 0px;
 
-   
-
-    --color-base: #fff;
-    --darkicon-bg: #17171E;
-    --border-primary : #2e2e42;
-    --body-bg: #17171E;
-    --header-bg:#17171E;
-    --navbrand-bg : #212130;
-    --navbrand-border : transparent;
-   
-    --text-color-primary: #fff;
-    --box-bg-primary: #fff;
-    --box-bg: #212130;
-    --bg-whitegray:#17171E;
-    --table-seacrh-boder: #2e2e42;
-    --table-option-color: #2e2e42;
-
-    --color-base: #fff;
-    --color-primary:#76839a;
-    --base-border-color: #2e2e42;
-    .card{
-        --card-border: #2e2e42;
-        --card-bg: #212130;
-        --mini-card-bg: transparent;
-        --mini-card-color-gray: #76839a;
-        --mini-card-color-primary: transparent;
-        --mini-card-color-secondary: #fff;
-    }
-    .table{
-        --table-bg: transparent;
-        --table-head-color: #76839a;
-        --table-body-text-color:#edf2f9;
-        --table-boder: #2e2e42;
-        --table-seacrh-boder: #edf2f9;
-    }
-    .search{
-        --search-btn-bg: #9e88f5 0,#6259ca;
-        --search-btn-color: #fff;
-        --search-border: #6259ca;
-    }
-    .header-action{
-        --action-color: #76839a;
-        --action-border: #2e2e42;
-        --action-bg: transparent;
-        --action-hover-color: #fff;
-        --action-hover-bg: #9e88f5 0,#6259ca;
-        --action-hover-border: #6259ca;
-    }
-    .footer{
-        --footer-border : #2e2e42;
-        --footer-color-primary: #76839a;
-        --footer-color:#6259ca;
-    }
-    .badge,.card{
-        --color-white: #fff;
-        --bg-success-soft:#e6faf4;
-        --success-soft-color :#35cf96;
-        --bg-danger-soft:#fee9ed;
-        --success-soft-color: #00d97e;
-        --danger-soft-color :#f7284a;
-        --danger-soft-color :#ee335e;
-        --gray-soft-color: #76839a;
-        --blue-soft-color: #2c7be5;
-        .icon{
-            --icon-soft-pupple: #eaefff;
-            --icon-soft-orange:#fff2e5;
-            --icon-soft-pink:#fee9ed;
-            --icon-soft-fresh:#e6faf4;
-        }
-    }
 }

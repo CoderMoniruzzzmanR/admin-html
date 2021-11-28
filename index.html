@@ -300,11 +300,6 @@
                 <div class="container-fluid">
                     <!--begin::Row-->
                     <div class="row">
-                        <!-- <div class="col-lg-12">
-                            <div class="heading">
-                                <h2>Welcome! cms content here</h2>
-                            </div>
-                        </div> -->
                         <!--begin::col-lg-3-->
                         <div class="col-lg-3">
                             <div class="card card-sm">
@@ -313,10 +308,10 @@
                                         <div class="col">
                                             <h6>Revenue Status</h6>
                                             <span class="h-text">$24,500</span>
-                                            <span class="badge bg-success-soft">+3.5%</span>
+                                            <span class="badge success-soft-bg">+3.5%</span>
                                             <!--begin::Static-->
                                             <div class="static"> 
-                                                <span ><i class="ti-stats-up success-soft"></i></span>
+                                                <span ><i class="ti-stats-up success"></i></span>
                                                 <!-- <span><i class="ti-stats-down gray-soft"></i></span> -->
                                                 <span class="text-mute">last month</span>
                                                
@@ -326,7 +321,7 @@
                                         <!--end::col-->
                                         <!--begin::col-auto-->
                                         <div class="col-auto">
-                                            <div class="icon icon-soft-pupple">
+                                            <div class="icon pupple-soft-bg">
                                                 <i class="ti-money"></i>
                                             </div>
                                         </div>
@@ -344,14 +339,14 @@
                                         <div class="col">
                                             <h6>Total Orders</h6>
                                             <span class="h-text">4,500</span>
-                                            <span class="badge bg-danger-soft">-3.5%</span>
+                                            <span class="badge success-soft-bg">-3.5%</span>
                                             <div class="static"> 
-                                                <span><i class="ti-stats-down danger-soft"></i></span>
+                                                <span><i class="ti-stats-down danger"></i></span>
                                                 <span class="text-mute">last month</span>
                                             </div>
                                         </div>
                                         <div class="col-auto">
-                                            <div class="icon icon-soft-orange">
+                                            <div class="icon yellow-soft-bg">
                                                 <i class="ti-shopping-cart"></i>
                                             </div>
                                         </div>
@@ -369,13 +364,13 @@
                                             <h6>Products sale</h6>
                                             <span class="h-text">24,500</span>
                                             <div class="static"> 
-                                                <span ><i class="ti-pulse success-soft"></i></span>
+                                                <span ><i class="ti-pulse success"></i></span>
                                                 <!-- <span><i class="ti-stats-down gray-soft"></i></span> -->
                                                 <span class="text-mute">This week</span>
                                             </div>
                                         </div>
                                         <div class="col-auto">
-                                            <div class="icon icon-soft-fresh">
+                                            <div class="icon success-soft-bg">
                                                 <i class="ti-package"></i>
                                             </div>
                                         </div>
@@ -393,13 +388,13 @@
                                             <h6>New Customer</h6>
                                             <span class="h-text">4,500</span>
                                             <div class="static"> 
-                                                <span ><i class="ti-bolt-alt danger-soft"></i></span>
+                                                <span ><i class="ti-bolt-alt danger"></i></span>
                                                 <!-- <span><i class="ti-stats-down gray-soft"></i></span> -->
                                                 <span class="text-mute">This week</span>
                                             </div>
                                         </div>
                                         <div class="col-auto">
-                                            <div class="icon icon-soft-pink">
+                                            <div class="icon red-soft-bg">
                                                 <i class="ti-user"></i>
                                             </div>
                                         </div>
@@ -413,7 +408,7 @@
                     <!--begin::Row-->
                     <div class="row mt-30">
                         <!--begin::col-lg-6-->
-                        <div class="col-lg-8">
+                        <div class="col-xxl-8 col-xl-7">
                             <!--begin::Card-->
                             <div class="card card-sm">
                                 <!--begin::Card-header-->
@@ -487,19 +482,61 @@
                         </div>
                         <!--end::col-lg-6-->
                         <!--end::col-lg-6-->
-                        <div class="col-lg-4">
+                        <div class="col-xxl-4 col-xl-5">
                             <div class="card card-sm over-view-card">
                                 <div class="card-header boder-b-n">
                                     <div class="over-view">
                                         <h4>Daily Overview</h4>
                                         <div class="button">
-                                            <button type="button" class="btn btn-icon">
-                                                <i class="ti-more "></i>
-                                            </button>
+                                            
+                                            <!--begin::Dropdown-->
+                                            <div class="dropdown sub-dropdown">
+                                                <!--begin::Dropdown-toggle-->
+                                                <button type="button" class="btn card-header-ellipsis sub-dropdown-toggle" type="button" data-bs-toggle="dropdown">
+                                                    <i class="fas fa-ellipsis-h"></i>
+                                                </button>
+                                                <!--begin::Dropdown-toggle-->
+                                                <!--begin::Dropdown-menu-->
+                                                <div class="dropdown-menu sub-menu">
+                                                    <!--begin::Dropdown-item-head-->
+                                                    <div class="dropdown-item-head">
+                                                        <span>Quick Actions
+                                                        </span>
+                                                    </div>
+                                                    <!--end::Dropdown-item-head-->
+                                                    <!--begin::Dropdown-item-->
+                                                    <div class="dropdown-item">
+                                                        <a class="dropdown-link" href="#">View all</a>
+                                                    </div>
+                                                    <!--end::Dropdown-item-->
+                                                    <!--begin::Dropdown-item-->
+                                                    <div class="dropdown-item">
+                                                        <a class="dropdown-link" href="#">Another action</a>
+                                                    </div>
+                                                    <!--end::Dropdown-item-->
+                                                    <!--begin::Dropdown-item-->
+                                                    <div class="dropdown-item">
+                                                        <a class="dropdown-link" href="#">Something else here</a>
+                                                    </div>
+                                                    <!--end::Dropdown-item-->
+                                                    <!--begin::Dropdown-item-->
+                                                    <div class="dropdown-item">
+                                                        <a class="dropdown-link" href="#">Something else here</a>
+                                                    </div>
+                                                    <!--end::Dropdown-item-->
+                                                    <!--begin::Dropdown-item-btn-->
+                                                    <div class="dropdown-item-btn">
+                                                        <a href="#" class="btn pupple-soft-bg">Generate reports</a>
+                                                    </div>
+                                                    <!--end::Dropdown-item-btn-->
+                                                </div>
+                                                <!--end::Dropdown-menu-->
+                                            </div>
+                                            <!--end::Dropdown-->
                                         </div>
                                     </div>
                                 </div>
-                                <div class="card-body custom-card_body_height slider-overview">
+                                <div class="card-body custom-card_body_height">
                                     <div class="card-progress">
                                         <div class="card-progress__info">
                                             <span class="info-left">
@@ -513,11 +550,11 @@
                                         </div>
                                         <div class="card-progress__bar">
                                             <div class="progress">
-                                                <div class="progress-bar bg-purple" role="progressbar" style="width: 68%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                                <div class="progress-bar purple-bg" role="progressbar" style="width: 68%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
                                             </div>
 
                                             <div class="progress-view">
-                                                <p class="progress-previous"><strong class="success-soft"><span><i class="ti-stats-up "></i></span> 25%</strong> Since Yesterday</p>
+                                                <p class="progress-previous"><strong class="success"><span><i class="ti-stats-up "></i></span> 25%</strong> Since Yesterday</p>
                                                 <span class="progress-est color-purple">65%</span>
                                             </div>
                                         </div>
@@ -535,12 +572,12 @@
                                         </div>
                                         <div class="card-progress__bar">
                                             <div class="progress">
-                                                <div class="progress-bar bg-orange" role="progressbar" style="width: 78%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                                <div class="progress-bar yellow-bg" role="progressbar" style="width: 78%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
                                             </div>
 
                                             <div class="progress-view">
-                                                <p class="progress-previous"><strong class="danger-soft"><span><i class="ti-stats-down"></i></span> 25%</strong> Since Yesterday</p>
-                                                <span class="progress-est color-orange">78%</span>
+                                                <p class="progress-previous"><strong class="danger"><span><i class="ti-stats-down"></i></span> 25%</strong> Since Yesterday</p>
+                                                <span class="progress-est color-yellow">78%</span>
                                             </div>
                                         </div>
                                     </div>
@@ -554,7 +591,7 @@
                     <!--begin::Row-->
                     <div class="row mt-30">
                         <!--begin::col-lg-7-->
-                        <div class="col-xxl-8 col-xl-8">
+                        <div class="col-xxl-8 col-xl-7">
                             <!--begin::Card-->
                             <div class="card card-sm ">
                                 <!--begin::Card-header-->
@@ -562,7 +599,7 @@
                                     <h4>
                                         Current Balance
                                         <span class="label">
-                                            <span class="badge bg-success-soft">
+                                            <span class="badge success-soft-bg">
                                                 +3.5%
                                             </span>
                                             than last month
@@ -586,7 +623,7 @@
                         <!--end::col-lg-7-->
                        
                          <!--begin::col-lg-3-->
-                         <div class="col-xl-4">
+                         <div class="col-xl-5 col-xxl-4">
                             <!--begin::Card-->
                             <div class="card card-sm ">
                                 <!--begin::Card-header-->
@@ -594,7 +631,7 @@
                                     <h4>
                                         Delivered Orders
                                         <span class="label">
-                                            <span class="badge bg-danger-soft">
+                                            <span class="badge danger-soft-bg">
                                                 +3.5%
                                             </span>
                                             than last week
@@ -616,7 +653,7 @@
                                     <div class="order-content">
                                         <div class="pending-order">
                                             <span class="heading">
-                                            <span class="legend-ic bg-orange"></span>
+                                            <span class="legend-ic yellow-bg"></span>
                                                 Pending
                                             </span>
                                             <span class="hints">
@@ -624,7 +661,7 @@
                                             </span>
                                         </div>
                                         <div class="cancel-order">
-                                            <span class="heading"><span class="legend-ic bg-danger"></span>Cancel</span>
+                                            <span class="heading"><span class="legend-ic danger-bg"></span>Cancel</span>
                                             <span class="hints">
                                                 11,000 than last week
                                             </span>
@@ -642,7 +679,268 @@
                      <!--begin::Row-->
                      <div class="row mt-30">
                         <!--begin::col-lg-3-->
-                        <div class="col-xl-5 col-xxl-4 col-lg-4 popular-product">
+                        <div class="col-xl-12 col-lg-12 col-xxl-4 sales-by-location">
+                            <!--begin::Card-->
+                            <div class="card card-sm ">
+                                <!--begin::Card-header-->
+                                <div class="card-header boder-b-n">
+                                    <!--begin::Heading-->
+                                    <h4>Sales By Location
+                                    </h4>
+                                    <!--end::Heading-->
+                                    <!--begin::Header-toolbar-->
+                                    <div class="header-toolbar">
+                                        <!--begin::Dropdown-->
+                                        <div class="dropdown sub-dropdown">
+                                            <!--begin::Dropdown-toggle-->
+                                            <button type="button" class="btn card-header-ellipsis sub-dropdown-toggle" type="button" data-bs-toggle="dropdown">
+                                                <i class="fas fa-ellipsis-h"></i>
+                                            </button>
+                                            <!--begin::Dropdown-toggle-->
+                                            <!--begin::Dropdown-menu-->
+                                            <div class="dropdown-menu sub-menu">
+                                                <!--begin::Dropdown-item-head-->
+                                                <div class="dropdown-item-head">
+                                                    <span>Quick Actions
+                                                    </span>
+                                                </div>
+                                                <!--end::Dropdown-item-head-->
+                                                <!--begin::Dropdown-item-->
+                                                <div class="dropdown-item">
+                                                    <a class="dropdown-link" href="#">View all</a>
+                                                </div>
+                                                <!--end::Dropdown-item-->
+                                                <!--begin::Dropdown-item-->
+                                                <div class="dropdown-item">
+                                                    <a class="dropdown-link" href="#">Another action</a>
+                                                </div>
+                                                <!--end::Dropdown-item-->
+                                                <!--begin::Dropdown-item-->
+                                                <div class="dropdown-item">
+                                                    <a class="dropdown-link" href="#">Something else here</a>
+                                                </div>
+                                                <!--end::Dropdown-item-->
+                                                <!--begin::Dropdown-item-->
+                                                <div class="dropdown-item">
+                                                    <a class="dropdown-link" href="#">Something else here</a>
+                                                </div>
+                                                <!--end::Dropdown-item-->
+                                                <!--begin::Dropdown-item-btn-->
+                                                <div class="dropdown-item-btn">
+                                                    <a href="#" class="btn pupple-soft-bg">Generate reports</a>
+                                                </div>
+                                                <!--end::Dropdown-item-btn-->
+                                            </div>
+                                            <!--end::Dropdown-menu-->
+                                        </div>
+                                        <!--end::Dropdown-->
+                                    </div>
+                                    <!--end::Header-toolbar-->
+                                </div>
+                                <!--end::Card-header-->
+                                <!--begin::Card-body-->
+                                 <div class="card-body custom-card_body_height">
+                                    <div class="balance">
+                                        <span class="dollar">$
+                                        </span><strong>2,449</strong>
+                                        <div class="label">
+                                            <span class="badge success-soft-bg">
+                                                +3.5%
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <!--begin::List-group-->
+                                    <div class="list-group list-main">
+                                        <!--begin::List-group-item-->
+                                        <div class="list-group-item">
+                                            <div class="stack-flex">
+                                                <a href="#" class="country-image-sm">
+                                                    <img src="./assets/img/bn.png" alt="...">Bangladesh
+                                                </a>
+                                                <div class="info">
+                                                    <span class="count">1,067</span>
+                                                    <span class="success icon-p">
+                                                        <i class="fas fa-long-arrow-alt-up "></i>
+                                                    </span>
+                                                    <span class="percentage">
+                                                        %8.5
+                                                    </span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!--end::List-group-item-->
+                                        <!--begin::List-group-item-->
+                                        <div class="list-group-item">
+                                            <div class="stack-flex">
+                                                <a href="#" class="country-image-sm">
+                                                    <img src="./assets/img/gm.png" alt="...">Germany
+                                                </a>
+                                                <div class="info">
+                                                    <span class="count">1,067</span>
+                                                    <span class="danger icon-p">
+                                                        <i class="fas fa-long-arrow-alt-down "></i>
+                                                    </span>
+                                                    <span class="percentage">
+                                                        %7.5
+                                                    </span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!--end::List-group-item-->
+                                        <!--begin::List-group-item-->
+                                        <div class="list-group-item">
+                                            <div class="stack-flex">
+                                                <a href="#" class="country-image-sm">
+                                                    <img src="./assets/img/it.png" alt="...">Italy
+                                                </a>
+                                                <div class="info">
+                                                    <span class="count">1,067</span>
+                                                    <span class="danger icon-p">
+                                                        <i class="fas fa-long-arrow-alt-down "></i>
+                                                    </span>
+                                                    <span class="percentage">
+                                                        %7.5
+                                                    </span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!--end::List-group-item-->
+                                        <!--begin::List-group-item-->
+                                        <div class="list-group-item">
+                                            <div class="stack-flex">
+                                                <a href="#" class="country-image-sm">
+                                                    <img src="./assets/img/f.png" alt="...">France
+                                                </a>
+                                                <div class="info">
+                                                    <span class="count">1,067</span>
+                                                    <span class="danger icon-p">
+                                                        <i class="fas fa-long-arrow-alt-down "></i>
+                                                    </span>
+                                                    <span class="percentage">
+                                                        %7.5
+                                                    </span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!--end::List-group-item-->
+                                        <!--begin::List-group-item-->
+                                        <div class="list-group-item">
+                                            <div class="stack-flex">
+                                                <a href="#" class="country-image-sm">
+                                                    <img src="./assets/img/us.png" alt="...">USA
+                                                </a>
+                                                <div class="info">
+                                                    <span class="count">1,067</span>
+                                                    <span class="success icon-p">
+                                                        <i class="fas fa-long-arrow-alt-up "></i>
+                                                    </span>
+                                                    <span class="percentage">
+                                                        %3.5
+                                                    </span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!--end::List-group-item-->
+                                        <!--begin::List-group-item-->
+                                        <div class="list-group-item">
+                                            <div class="stack-flex">
+                                                <a href="#" class="country-image-sm">
+                                                    <img src="./assets/img/cn.png" alt="...">China
+                                                </a>
+                                                <div class="info">
+                                                    <span class="count">1,067</span>
+                                                    <span class="danger icon-p">
+                                                        <i class="fas fa-long-arrow-alt-down "></i>
+                                                    </span>
+                                                    <span class="percentage">
+                                                        %7.5
+                                                    </span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!--end::List-group-item-->
+                                        <!--begin::List-group-item-->
+                                        <div class="list-group-item">
+                                            <div class="stack-flex">
+                                                <a href="#" class="country-image-sm">
+                                                    <img src="./assets/img/pk.jpg" alt="...">Pakistan
+                                                </a>
+                                                <div class="info">
+                                                    <span class="count">1,067</span>
+                                                    <span class="success icon-p">
+                                                        <i class="fas fa-long-arrow-alt-up "></i>
+                                                    </span>
+                                                    <span class="percentage">
+                                                        %3.5
+                                                    </span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!--end::List-group-item-->
+                                        <!--begin::List-group-item-->
+                                        <div class="list-group-item">
+                                            <div class="stack-flex">
+                                                <a href="#" class="country-image-sm">
+                                                    <img src="./assets/img/af.jpg" alt="...">South Africa
+                                                </a>
+                                                <div class="info">
+                                                    <span class="count">1,067</span>
+                                                    <span class="danger icon-p">
+                                                        <i class="fas fa-long-arrow-alt-down "></i>
+                                                    </span>
+                                                    <span class="percentage">
+                                                        %7.5
+                                                    </span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!--end::List-group-item-->
+                                        <!--begin::List-group-item-->
+                                        <div class="list-group-item">
+                                            <div class="stack-flex">
+                                                <a href="#" class="country-image-sm">
+                                                    <img src="./assets/img/in.png" alt="...">India
+                                                </a>
+                                                <div class="info">
+                                                    <span class="count">1,067</span>
+                                                    <span class="success icon-p">
+                                                        <i class="fas fa-long-arrow-alt-up "></i>
+                                                    </span>
+                                                    <span class="percentage">
+                                                        %3.5
+                                                    </span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!--end::List-group-item-->
+                                        <!--begin::List-group-item-->
+                                        <div class="list-group-item">
+                                            <div class="stack-flex">
+                                                <a href="#" class="country-image-sm">
+                                                    <img src="./assets/img/tk.png" alt="...">Turkey
+                                                </a>
+                                                <div class="info">
+                                                    <span class="count">1,067</span>
+                                                    <span class="danger icon-p">
+                                                        <i class="fas fa-long-arrow-alt-down "></i>
+                                                    </span>
+                                                    <span class="percentage">
+                                                        %7.5
+                                                    </span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!--end::List-group-item-->
+                                    </div>
+                                    <!--end::List-group-->
+                                </div>
+                                <!--end::Card-header-->
+                            </div>
+                            <!--end::Card-->
+                        </div>
+                        <!--end::col-lg-3-->
+                        <!--begin::col-lg-3-->
+                        <div class="col-xl-6 ol-lg-6 col-xxl-4 col-lg-4 popular-product">
                             <!--begin::Card-->
                             <div class="card card-sm ">
                                 <!--begin::Card-header-->
@@ -652,7 +950,50 @@
                                     <!--end::Heading-->
                                     <!--begin::Header-toolbar-->
                                     <div class="header-toolbar">
-                                        <a href="#" class="view-all-btn">view all</a>
+                                        <!--begin::Dropdown-->
+                                        <div class="dropdown sub-dropdown">
+                                            <!--begin::Dropdown-toggle-->
+                                            <button type="button" class="btn card-header-ellipsis sub-dropdown-toggle" type="button" data-bs-toggle="dropdown">
+                                                <i class="fas fa-ellipsis-h"></i>
+                                            </button>
+                                            <!--begin::Dropdown-toggle-->
+                                            <!--begin::Dropdown-menu-->
+                                            <div class="dropdown-menu sub-menu">
+                                                <!--begin::Dropdown-item-head-->
+                                                <div class="dropdown-item-head">
+                                                    <span>Quick Actions
+                                                    </span>
+                                                </div>
+                                                <!--end::Dropdown-item-head-->
+                                                <!--begin::Dropdown-item-->
+                                                <div class="dropdown-item">
+                                                    <a class="dropdown-link" href="#">View all</a>
+                                                </div>
+                                                <!--end::Dropdown-item-->
+                                                <!--begin::Dropdown-item-->
+                                                <div class="dropdown-item">
+                                                    <a class="dropdown-link" href="#">Another action</a>
+                                                </div>
+                                                <!--end::Dropdown-item-->
+                                                <!--begin::Dropdown-item-->
+                                                <div class="dropdown-item">
+                                                    <a class="dropdown-link" href="#">Something else here</a>
+                                                </div>
+                                                <!--end::Dropdown-item-->
+                                                <!--begin::Dropdown-item-->
+                                                <div class="dropdown-item">
+                                                    <a class="dropdown-link" href="#">Something else here</a>
+                                                </div>
+                                                <!--end::Dropdown-item-->
+                                                <!--begin::Dropdown-item-btn-->
+                                                <div class="dropdown-item-btn">
+                                                    <a href="#" class="btn pupple-soft-bg">Generate reports</a>
+                                                </div>
+                                                <!--end::Dropdown-item-btn-->
+                                            </div>
+                                            <!--end::Dropdown-menu-->
+                                        </div>
+                                        <!--end::Dropdown-->
                                     </div>
                                     <!--end::Header-toolbar-->
                                 </div>
@@ -678,7 +1019,7 @@
                                                     </p>
                                                 </div>
                                                 <div class="col-auto">
-                                                    <button class="btn btn-icon-arrow bg-pupple-soft">
+                                                    <button class="btn btn-icon-arrow gray-soft-bg">
                                                         <i class="fas fa-long-arrow-alt-right"></i>
                                                     </button>
                                                 </div>
@@ -702,7 +1043,7 @@
                                                     </p>
                                                 </div>
                                                 <div class="col-auto">
-                                                    <button class="btn btn-icon-arrow bg-pupple-soft">
+                                                    <button class="btn btn-icon-arrow gray-soft-bg">
                                                         <i class="fas fa-long-arrow-alt-right"></i>
                                                     </button>
                                                 </div>
@@ -726,7 +1067,7 @@
                                                     </p>
                                                 </div>
                                                 <div class="col-auto">
-                                                    <button class="btn btn-icon-arrow bg-pupple-soft">
+                                                    <button class="btn btn-icon-arrow gray-soft-bg">
                                                         <i class="fas fa-long-arrow-alt-right"></i>
                                                     </button>
                                                 </div>
@@ -750,7 +1091,7 @@
                                                     </p>
                                                 </div>
                                                 <div class="col-auto">
-                                                    <button class="btn btn-icon-arrow bg-pupple-soft">
+                                                    <button class="btn btn-icon-arrow gray-soft-bg">
                                                         <i class="fas fa-long-arrow-alt-right"></i>
                                                     </button>
                                                 </div>
@@ -774,7 +1115,7 @@
                                                     </p>
                                                 </div>
                                                 <div class="col-auto">
-                                                    <button class="btn btn-icon-arrow bg-pupple-soft">
+                                                    <button class="btn btn-icon-arrow gray-soft-bg">
                                                         <i class="fas fa-long-arrow-alt-right"></i>
                                                     </button>
                                                 </div>
@@ -789,8 +1130,375 @@
                             <!--end::Card-->
                         </div>
                         <!--end::col-lg-3-->
+                        
+                        <!--begin::col-lg-3-->
+                        <div class="col-xl-6 col-lg-6 col-xxl-4 weekly-best-sellers">
+                            <!--begin::Card-->
+                            <div class="card card-sm ">
+                                <!--begin::Card-header-->
+                                <div class="card-header boder-b-n">
+                                    <!--begin::Heading-->
+                                    <h4>Weekly Best Sellers
+                                    </h4>
+                                    <!--end::Heading-->
+                                    <!--begin::Header-toolbar-->
+                                    <div class="header-toolbar">
+                                        <!--begin::Dropdown-->
+                                        <div class="dropdown sub-dropdown">
+                                            <!--begin::Dropdown-toggle-->
+                                            <button type="button" class="btn card-header-ellipsis sub-dropdown-toggle" type="button" data-bs-toggle="dropdown">
+                                                <i class="fas fa-ellipsis-h"></i>
+                                            </button>
+                                            <!--begin::Dropdown-toggle-->
+                                            <!--begin::Dropdown-menu-->
+                                            <div class="dropdown-menu sub-menu">
+                                                <!--begin::Dropdown-item-head-->
+                                                <div class="dropdown-item-head">
+                                                    <span>Quick Actions
+                                                    </span>
+                                                </div>
+                                                <!--end::Dropdown-item-head-->
+                                                <!--begin::Dropdown-item-->
+                                                <div class="dropdown-item">
+                                                    <a class="dropdown-link" href="#">View all</a>
+                                                </div>
+                                                <!--end::Dropdown-item-->
+                                                <!--begin::Dropdown-item-->
+                                                <div class="dropdown-item">
+                                                    <a class="dropdown-link" href="#">Another action</a>
+                                                </div>
+                                                <!--end::Dropdown-item-->
+                                                <!--begin::Dropdown-item-->
+                                                <div class="dropdown-item">
+                                                    <a class="dropdown-link" href="#">Something else here</a>
+                                                </div>
+                                                <!--end::Dropdown-item-->
+                                                <!--begin::Dropdown-item-->
+                                                <div class="dropdown-item">
+                                                    <a class="dropdown-link" href="#">Something else here</a>
+                                                </div>
+                                                <!--end::Dropdown-item-->
+                                                <!--begin::Dropdown-item-btn-->
+                                                <div class="dropdown-item-btn">
+                                                    <a href="#" class="btn pupple-soft-bg">Generate reports</a>
+                                                </div>
+                                                <!--end::Dropdown-item-btn-->
+                                            </div>
+                                            <!--end::Dropdown-menu-->
+                                        </div>
+                                        <!--end::Dropdown-->
+                                    </div>
+                                    <!--end::Header-toolbar-->
+                                </div>
+                                <!--end::Card-header-->
+                                <!--begin::Card-body-->
+                                 <div class="card-body custom-card_body_height">
+                                    <!--begin::List-group-->
+                                    <div class="list-group list-main">
+                                         <!--begin::List-group-item-->
+                                         <div class="list-group-item">
+                                            <div class="row">
+                                                <div class="col-auto">
+                                                    <a href="#" class="image">
+                                                        <img src="./assets/img/user1.png" alt="...">
+                                                    </a>
+                                                </div>
+                                                <div class="col info">
+                                                    <h4>
+                                                        <a href="#">Kelyan alvee
+                                                        </a>
+                                                    </h4>
+                                                    <p class="badge pupple-soft-bg">180 sales
+                                                    </p>
+                                                </div>
+                                                <div class="col-auto">
+                                                    <button class="btn btn-icon-arrow gray-soft-bg">
+                                                        <i class="fas fa-long-arrow-alt-right"></i>
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!--end::List-group-item-->
+                                        <!--begin::List-group-item-->
+                                        <div class="list-group-item">
+                                            <div class="row">
+                                                <div class="col-auto">
+                                                    <a href="#" class="image">
+                                                        <img src="./assets/img/user1.png" alt="...">
+                                                    </a>
+                                                </div>
+                                                <div class="col info">
+                                                    <h4>
+                                                        <a href="#">Kelyan alvee
+                                                        </a>
+                                                    </h4>
+                                                    <p class="badge pupple-soft-bg">180 sales
+                                                    </p>
+                                                </div>
+                                                <div class="col-auto">
+                                                    <button class="btn btn-icon-arrow gray-soft-bg">
+                                                        <i class="fas fa-long-arrow-alt-right"></i>
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!--end::List-group-item-->
+                                        <!--begin::List-group-item-->
+                                        <div class="list-group-item">
+                                            <div class="row">
+                                                <div class="col-auto">
+                                                    <a href="#" class="image">
+                                                        <img src="./assets/img/user6.png" alt="...">
+                                                    </a>
+                                                </div>
+                                                <div class="col info">
+                                                    <h4>
+                                                        <a href="#">Kelyan alvee
+                                                        </a>
+                                                    </h4>
+                                                    <p class="badge pupple-soft-bg">170 sales
+                                                    </p>
+                                                </div>
+                                                <div class="col-auto">
+                                                    <button class="btn btn-icon-arrow gray-soft-bg">
+                                                        <i class="fas fa-long-arrow-alt-right"></i>
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!--end::List-group-item-->
+                                        <!--begin::List-group-item-->
+                                        <div class="list-group-item">
+                                            <div class="row">
+                                                <div class="col-auto">
+                                                    <a href="#" class="image">
+                                                        <img src="./assets/img/user2.png" alt="...">
+                                                    </a>
+                                                </div>
+                                                <div class="col info">
+                                                    <h4>
+                                                        <a href="#">Kelyan alvee
+                                                        </a>
+                                                    </h4>
+                                                    <p class="badge pupple-soft-bg">170 sales
+                                                    </p>
+                                                </div>
+                                                <div class="col-auto">
+                                                    <button class="btn btn-icon-arrow gray-soft-bg">
+                                                        <i class="fas fa-long-arrow-alt-right"></i>
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!--end::List-group-item-->
+                                        <!--begin::List-group-item-->
+                                        <div class="list-group-item">
+                                            <div class="row">
+                                                <div class="col-auto">
+                                                    <a href="#" class="image">
+                                                        <img src="./assets/img/user3.png" alt="...">
+                                                    </a>
+                                                </div>
+                                                <div class="col info">
+                                                    <h4>
+                                                        <a href="#">Kelyan alvee
+                                                        </a>
+                                                    </h4>
+                                                    <p class="badge pupple-soft-bg">170 sales
+                                                    </p>
+                                                </div>
+                                                <div class="col-auto">
+                                                    <button class="btn btn-icon-arrow gray-soft-bg">
+                                                        <i class="fas fa-long-arrow-alt-right"></i>
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!--end::List-group-item-->
+                                    </div>
+                                    <!--end::List-group-->
+                                </div>
+                                <!--end::Card-header-->
+                            </div>
+                            <!--end::Card-->
+                        </div>
+                        <!--end::col-lg-3-->
+
+                    </div>
+                    <!--end::Row-->
+                    <!--begin::Row-->
+                    <div class="row mt-30">
+                        <!--begin::col-lg-3-->
+                        <div class="col-xl-4 daily-activity">
+                            <!--begin::Card-->
+                            <div class="card card-sm ">
+                                <!--begin::Card-header-->
+                                <div class="card-header boder-b-n">
+                                    <!--begin::Heading-->
+                                    <h4>Recently Activity
+                                    </h4>
+                                    <!--end::Heading-->
+                                    <!--begin::Header-toolbar-->
+                                    <div class="header-toolbar">
+                                        <!--begin::Dropdown-->
+                                        <div class="dropdown sub-dropdown">
+                                            <!--begin::Dropdown-toggle-->
+                                            <button type="button" class="btn card-header-ellipsis sub-dropdown-toggle" type="button" data-bs-toggle="dropdown">
+                                                <i class="fas fa-ellipsis-h"></i>
+                                            </button>
+                                            <!--begin::Dropdown-toggle-->
+                                            <!--begin::Dropdown-menu-->
+                                            <div class="dropdown-menu sub-menu">
+                                                <!--begin::Dropdown-item-head-->
+                                                <div class="dropdown-item-head">
+                                                    <span>Quick Actions
+                                                    </span>
+                                                </div>
+                                                <!--end::Dropdown-item-head-->
+                                                <!--begin::Dropdown-item-->
+                                                <div class="dropdown-item">
+                                                    <a class="dropdown-link" href="#">View all</a>
+                                                </div>
+                                                <!--end::Dropdown-item-->
+                                                <!--begin::Dropdown-item-->
+                                                <div class="dropdown-item">
+                                                    <a class="dropdown-link" href="#">Another action</a>
+                                                </div>
+                                                <!--end::Dropdown-item-->
+                                                <!--begin::Dropdown-item-->
+                                                <div class="dropdown-item">
+                                                    <a class="dropdown-link" href="#">Something else here</a>
+                                                </div>
+                                                <!--end::Dropdown-item-->
+                                                <!--begin::Dropdown-item-->
+                                                <div class="dropdown-item">
+                                                    <a class="dropdown-link" href="#">Something else here</a>
+                                                </div>
+                                                <!--end::Dropdown-item-->
+                                                <!--begin::Dropdown-item-btn-->
+                                                <div class="dropdown-item-btn">
+                                                    <a href="#" class="btn pupple-soft-bg">Generate reports</a>
+                                                </div>
+                                                <!--end::Dropdown-item-btn-->
+                                            </div>
+                                            <!--end::Dropdown-menu-->
+                                        </div>
+                                        <!--end::Dropdown-->
+                                    </div>
+                                    <!--end::Header-toolbar-->
+                                </div>
+                                <!--end::Card-header-->
+                                <!--begin::Card-body-->
+                                <div class="card-body custom-card_body_height">
+                                    <!--begin::List-group-->
+                                    <div class="list-group list-main">
+                                        <!--begin::List-group-item-->
+                                        <div class="list-group-item">
+                                            <div class="row">
+                                                <div class="col-auto">
+                                                    <a href="#" class="image avatar-online active">
+                                                        <img src="./assets/img/user.jpg" alt="...">
+                                                    </a>
+                                                </div>
+                                                <div class="col info">
+                                                    <div class="small"><strong>Miyah Myles</strong> shared your post with Ryu Duke, Glen Rouse, and 3 others.</div>
+                                                    <p class="small-text"><time datetime="2022-01-01">2m ago</time>
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!--end::List-group-item-->
+                                        <!--begin::List-group-item-->
+                                        <div class="list-group-item">
+                                            <div class="row">
+                                                <div class="col-auto">
+                                                    <a href="#" class="image avatar-online offline">
+                                                        <img src="./assets/img/user5.png" alt="...">
+                                                    </a>
+                                                </div>
+                                                <div class="col info">
+                                                    <div class="small"><strong>Miyah Myles</strong> Uploads 110 products images and updated 30 products</div>
+                                                    <p class="small-text"><time datetime="2022-01-01">1 hour ago</time>
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!--end::List-group-item-->
+                                        <!--begin::List-group-item-->
+                                        <div class="list-group-item">
+                                            <div class="row">
+                                                <div class="col-auto">
+                                                    <a href="#" class="image avatar-online recently">
+                                                        <img src="./assets/img/user7.png" alt="...">
+                                                    </a>
+                                                </div>
+                                                <div class="col info">
+                                                    <div class="small"><strong>Miyah Myles</strong> open new 12:12 campaign offering unique discount opportunities, vouchers, best deals, flash sales, and many more attractive features</div>
+                                                    <p class="small-text"><time datetime="2022-01-01">1 hour ago</time>
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!--end::List-group-item-->
+                                        <!--begin::List-group-item-->
+                                        <div class="list-group-item">
+                                            <div class="row">
+                                                <div class="col-auto">
+                                                    <a href="#" class="image avatar-online active">
+                                                        <img src="./assets/img/user.jpg" alt="...">
+                                                    </a>
+                                                </div>
+                                                <div class="col info">
+                                                    <div class="small"><strong>Miyah Myles</strong> shared your post with Ryu Duke, Glen Rouse, and 3 others.</div>
+                                                    <p class="small-text"><time datetime="2022-01-01">2m ago</time>
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!--end::List-group-item-->
+                                        <!--begin::List-group-item-->
+                                        <div class="list-group-item">
+                                            <div class="row">
+                                                <div class="col-auto">
+                                                    <a href="#" class="image avatar-online offline">
+                                                        <img src="./assets/img/user5.png" alt="...">
+                                                    </a>
+                                                </div>
+                                                <div class="col info">
+                                                    <div class="small"><strong>Miyah Myles</strong> Uploaded the files "Launchday Logo" and "New Design"</div>
+                                                    <p class="small-text"><time datetime="2022-01-01">1 hour ago</time>
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!--end::List-group-item-->
+                                        <!--begin::List-group-item-->
+                                        <div class="list-group-item">
+                                            <div class="row">
+                                                <div class="col-auto">
+                                                    <a href="#" class="image avatar-online recently">
+                                                        <img src="./assets/img/user7.png" alt="...">
+                                                    </a>
+                                                </div>
+                                                <div class="col info">
+                                                    <div class="small"><strong>Miyah Myles</strong> open new campaign</div>
+                                                    <p class="small-text"><time datetime="2022-01-01">1 hour ago</time>
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!--end::List-group-item-->
+                                    </div>
+                                    <!--end::List-group-->
+                                </div>
+                                <!--end::Card-header-->
+                            </div>
+                            <!--end::Card-->
+                        </div>
+                        <!--end::col-lg-3-->
+                        
                         <!--begin::col-lg-8-->
-                        <div class="col-xl-7 col-xxl-8 col-lg-8">
+                        <div class="col-xl-8 col-xxl-8 col-lg-8">
                             <!--begin::Card-->
                             <div class="card card-sm">
                                 <!--begin::Card-header-->
@@ -800,7 +1508,50 @@
                                     <!--end::Heading-->
                                     <!--begin::Header-toolbar-->
                                     <div class="header-toolbar">
-                                        <a href="#" class="view-all-btn">view all</a>
+                                        <!--begin::Dropdown-->
+                                        <div class="dropdown sub-dropdown">
+                                            <!--begin::Dropdown-toggle-->
+                                            <button type="button" class="btn card-header-ellipsis sub-dropdown-toggle" type="button" data-bs-toggle="dropdown">
+                                                <i class="fas fa-ellipsis-h"></i>
+                                            </button>
+                                            <!--begin::Dropdown-toggle-->
+                                            <!--begin::Dropdown-menu-->
+                                            <div class="dropdown-menu sub-menu">
+                                                <!--begin::Dropdown-item-head-->
+                                                <div class="dropdown-item-head">
+                                                    <span>Quick Actions
+                                                    </span>
+                                                </div>
+                                                <!--end::Dropdown-item-head-->
+                                                <!--begin::Dropdown-item-->
+                                                <div class="dropdown-item">
+                                                    <a class="dropdown-link" href="#">View all</a>
+                                                </div>
+                                                <!--end::Dropdown-item-->
+                                                <!--begin::Dropdown-item-->
+                                                <div class="dropdown-item">
+                                                    <a class="dropdown-link" href="#">Another action</a>
+                                                </div>
+                                                <!--end::Dropdown-item-->
+                                                <!--begin::Dropdown-item-->
+                                                <div class="dropdown-item">
+                                                    <a class="dropdown-link" href="#">Something else here</a>
+                                                </div>
+                                                <!--end::Dropdown-item-->
+                                                <!--begin::Dropdown-item-->
+                                                <div class="dropdown-item">
+                                                    <a class="dropdown-link" href="#">Something else here</a>
+                                                </div>
+                                                <!--end::Dropdown-item-->
+                                                <!--begin::Dropdown-item-btn-->
+                                                <div class="dropdown-item-btn">
+                                                    <a href="#" class="btn pupple-soft-bg">Generate reports</a>
+                                                </div>
+                                                <!--end::Dropdown-item-btn-->
+                                            </div>
+                                            <!--end::Dropdown-menu-->
+                                        </div>
+                                        <!--end::Dropdown-->
                                     </div>
                                     <!--end::Header-toolbar-->
                                 </div>
@@ -836,12 +1587,48 @@
                                                         </span>
                                                     </td>
                                                     <td>
-                                                        <span class="badge bg-success-soft">In Progress</span>
+                                                        <span class="badge success-soft-bg">In Progress</span>
                                                     </td>
                                                     <td class="text-end">
-                                                        <button class="btn btn-icon bg-pupple-soft">
-                                                            <i class="ti-more-alt"></i>
-                                                        </button>
+                                                        <!--begin::Dropdown-->
+                                                        <div class="dropdown sub-dropdown">
+                                                            <!--begin::Dropdown-toggle-->
+                                                            <button type="button" class="btn table-action-icon sub-dropdown-toggle"data-bs-toggle="dropdown">
+                                                                <i class="fas fa-ellipsis-v"></i>
+                                                            </button>
+                                                            <!--begin::Dropdown-toggle-->
+                                                            <!--begin::Dropdown-menu-->
+                                                            <div class="dropdown-menu sub-menu">
+                                                                <!--begin::Dropdown-item-head-->
+                                                                <div class="dropdown-item-head">
+                                                                    <span> Actions
+                                                                    </span>
+                                                                </div>
+                                                                <!--end::Dropdown-item-head-->
+                                                                <!--begin::Dropdown-item-->
+                                                                <div class="dropdown-item">
+                                                                    <a class="dropdown-link" href="#">View</a>
+                                                                </div>
+                                                                <!--end::Dropdown-item-->
+                                                                <!--begin::Dropdown-item-->
+                                                                <div class="dropdown-item">
+                                                                    <a class="dropdown-link" href="#">Edit</a>
+                                                                </div>
+                                                                <!--end::Dropdown-item-->
+                                                                <!--begin::Dropdown-item-->
+                                                                <div class="dropdown-item">
+                                                                    <a class="dropdown-link" href="#">Delete</a>
+                                                                </div>
+                                                                <!--end::Dropdown-item-->
+                                                                <!--begin::Dropdown-item-btn-->
+                                                                <div class="dropdown-item-btn">
+                                                                    <a href="#" class="btn success-soft-bg">Active</a>
+                                                                </div>
+                                                                <!--end::Dropdown-item-btn-->
+                                                            </div>
+                                                            <!--end::Dropdown-menu-->
+                                                        </div>
+                                                        <!--end::Dropdown-->
                                                     </td>
                                                 </tr>
                                                 <tr>
@@ -870,12 +1657,48 @@
                                                         </span>
                                                     </td>
                                                     <td>
-                                                        <span class="badge bg-orange-soft">Pending</span>
+                                                        <span class="badge yellow-soft-bg">Pending</span>
                                                     </td>
                                                     <td class="text-end">
-                                                        <button class="btn btn-icon bg-pupple-soft">
-                                                            <i class="ti-more"></i>
-                                                        </button>
+                                                        <!--begin::Dropdown-->
+                                                        <div class="dropdown sub-dropdown">
+                                                            <!--begin::Dropdown-toggle-->
+                                                            <button type="button" class="btn table-action-icon sub-dropdown-toggle"data-bs-toggle="dropdown">
+                                                                <i class="fas fa-ellipsis-v"></i>
+                                                            </button>
+                                                            <!--begin::Dropdown-toggle-->
+                                                            <!--begin::Dropdown-menu-->
+                                                            <div class="dropdown-menu sub-menu">
+                                                                <!--begin::Dropdown-item-head-->
+                                                                <div class="dropdown-item-head">
+                                                                    <span> Actions
+                                                                    </span>
+                                                                </div>
+                                                                <!--end::Dropdown-item-head-->
+                                                                <!--begin::Dropdown-item-->
+                                                                <div class="dropdown-item">
+                                                                    <a class="dropdown-link" href="#">View</a>
+                                                                </div>
+                                                                <!--end::Dropdown-item-->
+                                                                <!--begin::Dropdown-item-->
+                                                                <div class="dropdown-item">
+                                                                    <a class="dropdown-link" href="#">Edit</a>
+                                                                </div>
+                                                                <!--end::Dropdown-item-->
+                                                                <!--begin::Dropdown-item-->
+                                                                <div class="dropdown-item">
+                                                                    <a class="dropdown-link" href="#">Delete</a>
+                                                                </div>
+                                                                <!--end::Dropdown-item-->
+                                                                <!--begin::Dropdown-item-btn-->
+                                                                <div class="dropdown-item-btn">
+                                                                    <a href="#" class="btn danger-soft-bg">Deactive</a>
+                                                                </div>
+                                                                <!--end::Dropdown-item-btn-->
+                                                            </div>
+                                                            <!--end::Dropdown-menu-->
+                                                        </div>
+                                                        <!--end::Dropdown-->
                                                     </td>
                                                 </tr>
                                                 <tr>
@@ -904,12 +1727,48 @@
                                                         </span>
                                                     </td>
                                                     <td>
-                                                        <span class="badge bg-orange-soft">Pending</span>
+                                                        <span class="badge yellow-soft-bg">Pending</span>
                                                     </td>
                                                     <td class="text-end">
-                                                        <button class="btn btn-icon bg-pupple-soft">
-                                                            <i class="ti-more"></i>
-                                                        </button>
+                                                        <!--begin::Dropdown-->
+                                                        <div class="dropdown sub-dropdown">
+                                                            <!--begin::Dropdown-toggle-->
+                                                            <button type="button" class="btn table-action-icon sub-dropdown-toggle"data-bs-toggle="dropdown">
+                                                                <i class="fas fa-ellipsis-v"></i>
+                                                            </button>
+                                                            <!--begin::Dropdown-toggle-->
+                                                            <!--begin::Dropdown-menu-->
+                                                            <div class="dropdown-menu sub-menu">
+                                                                <!--begin::Dropdown-item-head-->
+                                                                <div class="dropdown-item-head">
+                                                                    <span> Actions
+                                                                    </span>
+                                                                </div>
+                                                                <!--end::Dropdown-item-head-->
+                                                                <!--begin::Dropdown-item-->
+                                                                <div class="dropdown-item">
+                                                                    <a class="dropdown-link" href="#">View</a>
+                                                                </div>
+                                                                <!--end::Dropdown-item-->
+                                                                <!--begin::Dropdown-item-->
+                                                                <div class="dropdown-item">
+                                                                    <a class="dropdown-link" href="#">Edit</a>
+                                                                </div>
+                                                                <!--end::Dropdown-item-->
+                                                                <!--begin::Dropdown-item-->
+                                                                <div class="dropdown-item">
+                                                                    <a class="dropdown-link" href="#">Delete</a>
+                                                                </div>
+                                                                <!--end::Dropdown-item-->
+                                                                <!--begin::Dropdown-item-btn-->
+                                                                <div class="dropdown-item-btn">
+                                                                    <a href="#" class="btn success-soft-bg">Active</a>
+                                                                </div>
+                                                                <!--end::Dropdown-item-btn-->
+                                                            </div>
+                                                            <!--end::Dropdown-menu-->
+                                                        </div>
+                                                        <!--end::Dropdown-->
                                                     </td>
                                                 </tr>
                                                 <tr>
@@ -938,12 +1797,48 @@
                                                         </span>
                                                     </td>
                                                     <td>
-                                                        <span class="badge bg-success-soft">In Progress</span>
+                                                        <span class="badge success-soft-bg">In Progress</span>
                                                     </td>
                                                     <td class="text-end">
-                                                        <button class="btn btn-icon bg-pupple-soft">
-                                                            <i class="ti-more"></i>
-                                                        </button>
+                                                         <!--begin::Dropdown-->
+                                                         <div class="dropdown sub-dropdown">
+                                                            <!--begin::Dropdown-toggle-->
+                                                            <button type="button" class="btn table-action-icon sub-dropdown-toggle"data-bs-toggle="dropdown">
+                                                                <i class="fas fa-ellipsis-v"></i>
+                                                            </button>
+                                                            <!--begin::Dropdown-toggle-->
+                                                            <!--begin::Dropdown-menu-->
+                                                            <div class="dropdown-menu sub-menu">
+                                                                <!--begin::Dropdown-item-head-->
+                                                                <div class="dropdown-item-head">
+                                                                    <span> Actions
+                                                                    </span>
+                                                                </div>
+                                                                <!--end::Dropdown-item-head-->
+                                                                <!--begin::Dropdown-item-->
+                                                                <div class="dropdown-item">
+                                                                    <a class="dropdown-link" href="#">View</a>
+                                                                </div>
+                                                                <!--end::Dropdown-item-->
+                                                                <!--begin::Dropdown-item-->
+                                                                <div class="dropdown-item">
+                                                                    <a class="dropdown-link" href="#">Edit</a>
+                                                                </div>
+                                                                <!--end::Dropdown-item-->
+                                                                <!--begin::Dropdown-item-->
+                                                                <div class="dropdown-item">
+                                                                    <a class="dropdown-link" href="#">Delete</a>
+                                                                </div>
+                                                                <!--end::Dropdown-item-->
+                                                                <!--begin::Dropdown-item-btn-->
+                                                                <div class="dropdown-item-btn">
+                                                                    <a href="#" class="btn success-soft-bg">Active</a>
+                                                                </div>
+                                                                <!--end::Dropdown-item-btn-->
+                                                            </div>
+                                                            <!--end::Dropdown-menu-->
+                                                        </div>
+                                                        <!--end::Dropdown-->
                                                     </td>
                                                 </tr>
                                                 <tr>
@@ -972,12 +1867,48 @@
                                                         </span>
                                                     </td>
                                                     <td>
-                                                        <span class="badge bg-danger-soft">Declined</span>
+                                                        <span class="badge danger-soft-bg">Declined</span>
                                                     </td>
                                                     <td class="text-end">
-                                                        <button class="btn btn-icon bg-pupple-soft">
-                                                            <i class="ti-more"></i>
-                                                        </button>
+                                                        <!--begin::Dropdown-->
+                                                        <div class="dropdown sub-dropdown">
+                                                            <!--begin::Dropdown-toggle-->
+                                                            <button type="button" class="btn table-action-icon sub-dropdown-toggle"data-bs-toggle="dropdown">
+                                                                <i class="fas fa-ellipsis-v"></i>
+                                                            </button>
+                                                            <!--begin::Dropdown-toggle-->
+                                                            <!--begin::Dropdown-menu-->
+                                                            <div class="dropdown-menu sub-menu">
+                                                                <!--begin::Dropdown-item-head-->
+                                                                <div class="dropdown-item-head">
+                                                                    <span> Actions
+                                                                    </span>
+                                                                </div>
+                                                                <!--end::Dropdown-item-head-->
+                                                                <!--begin::Dropdown-item-->
+                                                                <div class="dropdown-item">
+                                                                    <a class="dropdown-link" href="#">View</a>
+                                                                </div>
+                                                                <!--end::Dropdown-item-->
+                                                                <!--begin::Dropdown-item-->
+                                                                <div class="dropdown-item">
+                                                                    <a class="dropdown-link" href="#">Edit</a>
+                                                                </div>
+                                                                <!--end::Dropdown-item-->
+                                                                <!--begin::Dropdown-item-->
+                                                                <div class="dropdown-item">
+                                                                    <a class="dropdown-link" href="#">Delete</a>
+                                                                </div>
+                                                                <!--end::Dropdown-item-->
+                                                                <!--begin::Dropdown-item-btn-->
+                                                                <div class="dropdown-item-btn">
+                                                                    <a href="#" class="btn success-soft-bg">Active</a>
+                                                                </div>
+                                                                <!--end::Dropdown-item-btn-->
+                                                            </div>
+                                                            <!--end::Dropdown-menu-->
+                                                        </div>
+                                                        <!--end::Dropdown-->
                                                     </td>
                                                 </tr>
 
@@ -992,388 +1923,15 @@
                         <!--end::col-lg-8-->
                     </div>
                     <!--end::Row-->
-                    <!--begin::Row-->
-                    <div class="row mt-30">
-                        <!--begin::col-lg-3-->
-                        <div class="col-xl-4 daily-activity">
-                            <!--begin::Card-->
-                            <div class="card card-sm ">
-                                <!--begin::Card-header-->
-                                <div class="card-header boder-b-n">
-                                    <!--begin::Heading-->
-                                    <h4>Recently Activity
-                                    </h4>
-                                    <!--end::Heading-->
-                                    <!--begin::Header-toolbar-->
-                                    <div class="header-toolbar">
-                                        <a href="#" class="view-all-btn">view all</a>
-                                    </div>
-                                    <!--end::Header-toolbar-->
-                                </div>
-                                <!--end::Card-header-->
-                                <!--begin::Card-body-->
-                                <div class="card-body custom-card_body_height">
-                                    <!--begin::List-group-->
-                                    <div class="list-group list-main">
-                                        <!--begin::List-group-item-->
-                                        <div class="list-group-item">
-                                            <div class="row">
-                                                <div class="col-auto">
-                                                    <a href="#" class="image avatar-online active">
-                                                        <img src="./assets/img/user.jpg" alt="...">
-                                                    </a>
-                                                </div>
-                                                <div class="col info">
-                                                    <div class="small"><strong>Miyah Myles</strong> shared your post with Ryu Duke, Glen Rouse, and 3 others.</div>
-                                                    <p class="small-text"><time datetime="2022-01-01">2m ago</time>
-                                                    </p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <!--end::List-group-item-->
-                                        <!--begin::List-group-item-->
-                                        <div class="list-group-item">
-                                            <div class="row">
-                                                <div class="col-auto">
-                                                    <a href="#" class="image avatar-online offline">
-                                                        <img src="./assets/img/user5.png" alt="...">
-                                                    </a>
-                                                </div>
-                                                <div class="col info">
-                                                    <div class="small"><strong>Miyah Myles</strong> Uploads 110 products</div>
-                                                    <p class="small-text"><time datetime="2022-01-01">1 hour ago</time>
-                                                    </p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <!--end::List-group-item-->
-                                        <!--begin::List-group-item-->
-                                        <div class="list-group-item">
-                                            <div class="row">
-                                                <div class="col-auto">
-                                                    <a href="#" class="image avatar-online recently">
-                                                        <img src="./assets/img/user7.png" alt="...">
-                                                    </a>
-                                                </div>
-                                                <div class="col info">
-                                                    <div class="small"><strong>Miyah Myles</strong> open new campaign</div>
-                                                    <p class="small-text"><time datetime="2022-01-01">1 hour ago</time>
-                                                    </p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <!--end::List-group-item-->
-                                        <!--begin::List-group-item-->
-                                        <div class="list-group-item">
-                                            <div class="row">
-                                                <div class="col-auto">
-                                                    <a href="#" class="image avatar-online active">
-                                                        <img src="./assets/img/user.jpg" alt="...">
-                                                    </a>
-                                                </div>
-                                                <div class="col info">
-                                                    <div class="small"><strong>Miyah Myles</strong> shared your post with Ryu Duke, Glen Rouse, and 3 others.</div>
-                                                    <p class="small-text"><time datetime="2022-01-01">2m ago</time>
-                                                    </p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <!--end::List-group-item-->
-                                        <!--begin::List-group-item-->
-                                        <div class="list-group-item">
-                                            <div class="row">
-                                                <div class="col-auto">
-                                                    <a href="#" class="image avatar-online offline">
-                                                        <img src="./assets/img/user5.png" alt="...">
-                                                    </a>
-                                                </div>
-                                                <div class="col info">
-                                                    <div class="small"><strong>Miyah Myles</strong> Uploads 110 products</div>
-                                                    <p class="small-text"><time datetime="2022-01-01">1 hour ago</time>
-                                                    </p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <!--end::List-group-item-->
-                                        <!--begin::List-group-item-->
-                                        <div class="list-group-item">
-                                            <div class="row">
-                                                <div class="col-auto">
-                                                    <a href="#" class="image avatar-online recently">
-                                                        <img src="./assets/img/user7.png" alt="...">
-                                                    </a>
-                                                </div>
-                                                <div class="col info">
-                                                    <div class="small"><strong>Miyah Myles</strong> open new campaign</div>
-                                                    <p class="small-text"><time datetime="2022-01-01">1 hour ago</time>
-                                                    </p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <!--end::List-group-item-->
-                                    </div>
-                                    <!--end::List-group-->
-                                </div>
-                                <!--end::Card-header-->
-                            </div>
-                            <!--end::Card-->
-                        </div>
-                        <!--end::col-lg-3-->
-                        <!--begin::col-lg-3-->
-                        <div class="col-xl-4 weekly-best-sellers">
-                            <!--begin::Card-->
-                            <div class="card card-sm ">
-                                <!--begin::Card-header-->
-                                <div class="card-header boder-b-n">
-                                    <!--begin::Heading-->
-                                    <h4>Weekly Best Sellers
-                                    </h4>
-                                    <!--end::Heading-->
-                                    <!--begin::Header-toolbar-->
-                                    <div class="header-toolbar">
-                                        <a href="#" class="view-all-btn">view all</a>
-                                    </div>
-                                    <!--end::Header-toolbar-->
-                                </div>
-                                <!--end::Card-header-->
-                                <!--begin::Card-body-->
-                                 <div class="card-body custom-card_body_height">
-                                    <!--begin::List-group-->
-                                    <div class="list-group list-main">
-                                        
-                                        <!--begin::List-group-item-->
-                                        <div class="list-group-item">
-                                            <div class="row">
-                                                <div class="col-auto">
-                                                    <a href="#" class="image">
-                                                        <img src="./assets/img/user1.png" alt="...">
-                                                    </a>
-                                                </div>
-                                                <div class="col info">
-                                                    <h4>
-                                                        <a href="#">Kelyan alvee
-                                                        </a>
-                                                    </h4>
-                                                    <p class="badge pupple-soft-bg">180 sales
-                                                    </p>
-                                                </div>
-                                                <div class="col-auto">
-                                                    <button class="btn btn-icon-arrow bg-pupple-soft">
-                                                        <i class="fas fa-long-arrow-alt-right"></i>
-                                                    </button>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <!--end::List-group-item-->
-                                        <!--begin::List-group-item-->
-                                        <div class="list-group-item">
-                                            <div class="row">
-                                                <div class="col-auto">
-                                                    <a href="#" class="image">
-                                                        <img src="./assets/img/user6.png" alt="...">
-                                                    </a>
-                                                </div>
-                                                <div class="col info">
-                                                    <h4>
-                                                        <a href="#">Kelyan alvee
-                                                        </a>
-                                                    </h4>
-                                                    <p class="badge pupple-soft-bg">170 sales
-                                                    </p>
-                                                </div>
-                                                <div class="col-auto">
-                                                    <button class="btn btn-icon-arrow bg-pupple-soft">
-                                                        <i class="fas fa-long-arrow-alt-right"></i>
-                                                    </button>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <!--end::List-group-item-->
-                                        <!--begin::List-group-item-->
-                                        <div class="list-group-item">
-                                            <div class="row">
-                                                <div class="col-auto">
-                                                    <a href="#" class="image">
-                                                        <img src="./assets/img/user2.png" alt="...">
-                                                    </a>
-                                                </div>
-                                                <div class="col info">
-                                                    <h4>
-                                                        <a href="#">Kelyan alvee
-                                                        </a>
-                                                    </h4>
-                                                    <p class="badge pupple-soft-bg">170 sales
-                                                    </p>
-                                                </div>
-                                                <div class="col-auto">
-                                                    <button class="btn btn-icon-arrow bg-pupple-soft">
-                                                        <i class="fas fa-long-arrow-alt-right"></i>
-                                                    </button>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <!--end::List-group-item-->
-                                        <!--begin::List-group-item-->
-                                        <div class="list-group-item">
-                                            <div class="row">
-                                                <div class="col-auto">
-                                                    <a href="#" class="image">
-                                                        <img src="./assets/img/user3.png" alt="...">
-                                                    </a>
-                                                </div>
-                                                <div class="col info">
-                                                    <h4>
-                                                        <a href="#">Kelyan alvee
-                                                        </a>
-                                                    </h4>
-                                                    <p class="badge pupple-soft-bg">170 sales
-                                                    </p>
-                                                </div>
-                                                <div class="col-auto">
-                                                    <button class="btn btn-icon-arrow bg-pupple-soft">
-                                                        <i class="fas fa-long-arrow-alt-right"></i>
-                                                    </button>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <!--end::List-group-item-->
-                                    </div>
-                                    <!--end::List-group-->
-                                </div>
-                                <!--end::Card-header-->
-                            </div>
-                            <!--end::Card-->
-                        </div>
-                        <!--end::col-lg-3-->
-                        <!--begin::col-lg-3-->
-                        <div class="col-xl-4 popular-product">
-                            <!--begin::Card-->
-                            <div class="card card-sm ">
-                                <!--begin::Card-header-->
-                                <div class="card-header boder-b-n">
-                                    <!--begin::Heading-->
-                                    <h4>Popular Product</h4>
-                                    <!--end::Heading-->
-                                    <!--begin::Header-toolbar-->
-                                    <div class="header-toolbar">
-                                        <a href="#" class="view-all-btn">view all</a>
-                                    </div>
-                                    <!--end::Header-toolbar-->
-                                </div>
-                                <!--end::Card-header-->
-                                <!--begin::Card-body-->
-                                 <div class="card-body custom-card_body_height">
-                                    <!--begin::List-group-->
-                                    <div class="list-group list-main">
-                                        
-                                        <!--begin::List-group-item-->
-                                        <div class="list-group-item">
-                                            <div class="row">
-                                                <div class="col-auto">
-                                                    <a href="#" class="image">
-                                                        <img src="./assets/img/item1.png" alt="...">
-                                                    </a>
-                                                </div>
-                                                <div class="col info">
-                                                    <h4>
-                                                        <a href="#">Homepage Redesign
-                                                        </a>
-                                                    </h4>
-                                                    <p class="small-text"><time datetime="2022-01-01">Updated 4hr ago</time>
-                                                    </p>
-                                                </div>
-                                                <div class="col-auto">
-                                                    <div class="dropdown">
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <!--end::List-group-item-->
-                                        <!--begin::List-group-item-->
-                                        <div class="list-group-item">
-                                            <div class="row">
-                                                <div class="col-auto">
-                                                    <a href="#" class="image">
-                                                        <img src="./assets/img/item1.png" alt="...">
-                                                    </a>
-                                                </div>
-                                                <div class="col info">
-                                                    <h4>
-                                                        <a href="#">Homepage Redesign
-                                                        </a>
-                                                    </h4>
-                                                    <p class="small-text"><time datetime="2022-01-01">Updated 4hr ago</time>
-                                                    </p>
-                                                </div>
-                                                <div class="col-auto">
-                                                    <div class="dropdown">
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <!--end::List-group-item-->
-                                        <!--begin::List-group-item-->
-                                        <div class="list-group-item">
-                                            <div class="row">
-                                                <div class="col-auto">
-                                                    <a href="#" class="image">
-                                                        <img src="./assets/img/item1.png" alt="...">
-                                                    </a>
-                                                </div>
-                                                <div class="col info">
-                                                    <h4>
-                                                        <a href="#">Homepage Redesign
-                                                        </a>
-                                                    </h4>
-                                                    <p class="small-text"><time datetime="2022-01-01">Updated 4hr ago</time>
-                                                    </p>
-                                                </div>
-                                                <div class="col-auto">
-                                                    <div class="dropdown">
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <!--end::List-group-item-->
-                                        <!--begin::List-group-item-->
-                                        <div class="list-group-item">
-                                            <div class="row">
-                                                <div class="col-auto">
-                                                    <a href="#" class="image">
-                                                        <img src="./assets/img/item1.png" alt="...">
-                                                    </a>
-                                                </div>
-                                                <div class="col info">
-                                                    <h4>
-                                                        <a href="#">Homepage Redesign
-                                                        </a>
-                                                    </h4>
-                                                    <p class="small-text"><time datetime="2022-01-01">Updated 4hr ago</time>
-                                                    </p>
-                                                </div>
-                                                <div class="col-auto">
-                                                    <div class="dropdown">
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <!--end::List-group-item-->
-                                    </div>
-                                    <!--end::List-group-->
-                                </div>
-                                <!--end::Card-header-->
-                            </div>
-                            <!--end::Card-->
-                        </div>
-                        <!--end::col-lg-3-->
-                    </div>
-                    <!--end::Row-->
                 </div>
                 <!--end::Container-fluid-->
             </div>
             <!--end::Wrapper-content-->
             <!--begin::Footer-->
             <div class="footer">
+                <!--begin::Page-top-border-->
+                <div class="page-footer-border"></div>
+                <!--end::Page-top-border-->
                 <div class="container-fluid ">
                     <div class="footer-body">
                         <span>2021©</span>

@@ -113,7 +113,7 @@
                         font-weight: 900;
                         background: linear-gradient(to bottom right,var(  --base-gradient-bg));
                         border-radius: 0.95rem 0rem 0rem 0.95rem;
-                        border: 1px solid var(--base-border-color);
+                        border: 1px solid var(--base-color-secondary);
                     }
                     .form-control{
                         max-width: 240px;
@@ -218,14 +218,14 @@
             height: 100px;
             padding: 0 25px;
             width: 100%;
-            border-bottom: 1px dashed var(--border-primary);
+            border-bottom: 1px dashed var(--base-border-color);
             flex-shrink: 0;
             display: flex;
             justify-content: space-between;
             align-items: center;
             background-color: var(--navbrand-bg);
             border-right: none;
-            z-index: 999;
+            z-index: 9999;
             .mobile-icon{
                 display: inline-block;
                 .icon{
