@@ -39,12 +39,46 @@
                         </div>
                         <!--end::Menu-heading-->
                         <!--begin::Menu-item-->
-                        <div class="menu-item">
+                        <div class="menu-item is-expanded">
                             <!--begin::Nav-link-->
-                            <a href="index.html" class="nav-link">
-                               <i class="ti-home icon"></i>Dashboards
+                            <a href="index.html" class="nav-link active">
+                               <i class="ti-home icon"></i>Dashboards<i class="ti-angle-down icon-chevron"></i>
                             </a>
                             <!--end::Nav-link-->
+                            <!--begin::Sub-menu-->
+                            <ul class="sub-menu">
+                                <!--begin::Sub-menu-item-->
+                                <li class="active">
+                                    <a href="#" class="sub-menu-item">
+                                        <div class="sub-menu-link">
+                                            <i class="ti-control-record icon"></i>
+                                            <span>E-commerce</span>
+                                        </div>
+                                    </a>
+                                </li>
+                                <!--end::Sub-menu-item-->
+                                <!--begin::Sub-menu-item-->
+                                <li>
+                                    <a href="overview.html" class="sub-menu-item">
+                                        <div class="sub-menu-link">
+                                            <i class="ti-control-record icon"></i>
+                                            <span>Site Overview</span>
+                                        </div>
+                                    </a>
+                                </li>
+                                <!--end::Sub-menu-item-->
+                                <!--begin::Sub-menu-item-->
+                                <li>
+                                    <a href="#" class="sub-menu-item">
+                                        <div  class="sub-menu-link">
+                                            <i class="ti-control-record icon"></i>
+                                            <span>Finance</span>
+                                        </div>
+                                    </a>
+                                </li>
+                                <!--end::Sub-menu-item-->
+                            </ul>
+                            <!--end::Sub-menu-->
                         </div>
                         <!--end::Menu-item-->
                         <!--begin::Menu-heading-->
@@ -53,9 +87,9 @@
                         </div>
                         <!--end::Menu-heading-->
                         <!--begin::Menu-item-->
-                        <div class="menu-item is-expanded">
+                        <div class="menu-item">
                             <!--begin::Nav-link-->
-                            <a href="#" class="nav-link active">
+                            <a href="#" class="nav-link">
                                 <i class="ti-file icon"></i>pages<i class="ti-angle-down icon-chevron"></i>
                             </a>
                             <!--end::Nav-link-->
@@ -260,7 +294,6 @@
                                     <!--end::Action-icon-->
                                 </div>
                                 <!--end::Message-action-->
-
                                 <!--begin::Notification-action-->
                                 <div class="notification-action action-items">
                                     <!--begin::Action-icon-->
@@ -271,7 +304,6 @@
                                     <!--end::Action-icon-->
                                 </div>
                                 <!--end::Notification-action-->
-
                                 <!--begin::Setting-action-->
                                 <div class="setting-action action-items">
                                     <!--begin::Action-icon-->
@@ -281,7 +313,6 @@
                                     <!--end::Action-icon-->
                                 </div>
                                 <!--end::Setting-action-->
-
                             </div>
                             <!--end::Header-action-->
                         </div>
@@ -300,11 +331,15 @@
                 <div class="container-fluid">
                     <!--begin::Row-->
                     <div class="row">
-                        <!--begin::col-lg-3-->
-                        <div class="col-lg-3">
+                        <!--begin::Boostrap-col-->
+                        <div class="col-lg-6 col-xl-6 col-xxl-3">
+                            <!--begin::Card-->
                             <div class="card card-sm">
+                                <!--begin::Card-body-->
                                 <div class="card-body boder-radius-around">
+                                    <!--begin::row-->
                                     <div class="align-items-center row">
+                                        <!--begin::Col-->
                                         <div class="col">
                                             <h6>Revenue Status</h6>
                                             <span class="h-text">$24,500</span>
@@ -312,27 +347,31 @@
                                             <!--begin::Static-->
                                             <div class="static"> 
                                                 <span ><i class="ti-stats-up success"></i></span>
-                                                <!-- <span><i class="ti-stats-down gray-soft"></i></span> -->
                                                 <span class="text-mute">last month</span>
-                                               
                                             </div>
                                             <!--end::Static-->
                                         </div>
                                         <!--end::col-->
                                         <!--begin::col-auto-->
                                         <div class="col-auto">
+                                            <!--begin::icon-->
                                             <div class="icon pupple-soft-bg">
                                                 <i class="ti-money"></i>
                                             </div>
+                                            <!--end::icon-->
                                         </div>
                                         <!--end::col-auto-->
                                     </div>
+                                    <!--end::row-->
                                 </div>
+                                <!--end::Card-body-->
                             </div>
+                            <!--end::Card-->
                         </div>
-                        <!--end::col-lg-3-->
-                        <!--begin::col-lg-3-->
-                        <div class="col-lg-3">
+                        <!--end::Boostrap-col-->
+                        <!--begin::Boostrap-col-->
+                        <div class="col-lg-6 col-xl-6 col-xxl-3">
+                            <!--begin::Card-->
                             <div class="card card-sm">
                                 <div class="card-body boder-radius-around">
                                     <div class="align-items-center row">
@@ -353,10 +392,12 @@
                                     </div>
                                 </div>
                             </div>
+                            <!--end::Card-->
                         </div>
-                        <!--end::col-lg-3-->
-                        <!--begin::col-lg-3-->
-                        <div class="col-lg-3">
+                        <!--end::Boostrap-col-->
+                       <!--begin::Boostrap-col-->
+                        <div class="col-lg-6 col-xl-6 col-xxl-3 col-xl-mt">
+                            <!--begin::Card-->
                             <div class="card card-sm">
                                 <div class="card-body boder-radius-around">
                                     <div class="align-items-center row">
@@ -377,10 +418,12 @@
                                     </div>
                                 </div>
                             </div>
+                            <!--end::Card-->
                         </div>
-                        <!--end::col-lg-3-->
-                        <!--begin::col-lg-3-->
-                        <div class="col-lg-3">
+                        <!--end::Boostrap-col-->
+                        <!--begin::Boostrap-col-->
+                        <div class="col-lg-6 col-xl-6 col-xxl-3 col-xl-mt">
+                            <!--begin::Card-->
                             <div class="card card-sm">
                                 <div class="card-body boder-radius-around">
                                     <div class="align-items-center row">
@@ -401,12 +444,13 @@
                                     </div>
                                 </div>
                             </div>
+                            <!--end::Card-->
                         </div>
-                        <!--end::col-lg-3-->
+                        <!--end::Boostrap-col-->
                     </div>
                     <!--end::Row-->
                     <!--begin::Row-->
-                    <div class="row mt-30">
+                    <div class="row mt-25">
                         <!--begin::col-lg-6-->
                         <div class="col-xxl-8 col-xl-7">
                             <!--begin::Card-->

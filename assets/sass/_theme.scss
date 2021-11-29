@@ -11,15 +11,15 @@
     transition: margin-left .3s ease;
     margin-left: 250px;
     .container-fluid{
-        padding: 0px 30px;
+        padding: 0px 25px;
     }
     .page-top-border,.page-footer-border{
         border-top: 1px dashed var(--base-border-color);
         margin: var(--margin-top-footer);
     }
     .wrapper-content{
-        margin-top: 30px;
-        margin-bottom: 30px;
+        margin-top: 25px;
+        margin-bottom: 25px;
         flex: 1 1 auto;
         min-height: calc(100vh - 242px) ;
         .heading{

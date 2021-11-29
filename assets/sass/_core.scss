@@ -55,19 +55,22 @@ p{
 ::-webkit-scrollbar {
     width: 6px;
     height: 4px;
+    border-radius: 6px;
 }
 ::-webkit-scrollbar-track{
-    background: var(--scroll-bg);
+    border-radius: 6px;
 }
 ::-webkit-scrollbar-thumb{
-    background-color: var(--scroll-thumb-bg) ;
+    background-color: var( --scroll-thumb-bg-primary) ;
     border-radius: 6px;
 }
 body::-webkit-scrollbar{
-    width: 8px;
+    width: 10px;
+    border-radius: 6px;
 }
 body::-webkit-scrollbar-track{
     background: var(--scroll-bg);
+    border-radius: 6px;
 }
 body::-webkit-scrollbar-thumb{
     background-color: var(--scroll-thumb-bg) ;
@@ -244,6 +247,14 @@ body::-webkit-scrollbar-thumb{
 
 }
 //margin and padding
+@media only screen and (max-width: 1400px) {
+    .col-xl-mt{
+        margin-top: 25px;
+    }
+}
+.mt-25{
+    margin-top: 25px;
+}
 
 .mt-30{
     margin-top: 30px;

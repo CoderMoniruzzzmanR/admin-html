@@ -63,7 +63,7 @@
                 font-size: 14px;
                 padding: 0px;
                 color: var(--base-color-primary);
-                padding: 0.5rem 1rem;
+                padding: 8px 15px;
                 cursor: pointer;
                 &:hover{
                     color: var(--base-color-secondary);
@@ -81,7 +81,6 @@
             }
             .icon{
                 margin-right: 5px;
-
             }
             .icon-chevron{
                 margin-top: 6px;
@@ -103,11 +102,14 @@
                 align-items: center;
                 .sub-menu-link{
                     display: block;
-                    padding: 0.5rem 1.75rem;
+                    padding: 8px 15px;
                     font-size: 13px;
                     font-weight: 500;
                     color: var(--base-color-primary);
                     cursor: pointer;
+                    .icon{
+                        margin-right: 0px;
+                    }
                 }
                 &:hover{
                     color: var(--base-color-secondary);

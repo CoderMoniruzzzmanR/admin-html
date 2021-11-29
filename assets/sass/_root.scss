@@ -6,6 +6,7 @@
 
     --scroll-bg:#eaefff;
     --scroll-thumb-bg:#9e88f5;
+    --scroll-thumb-bg-primary:rgba(98, 89, 202, 0.185);
 
     --base-color-primary:#76839a;
     --base-color-secondary: #6259ca;
@@ -36,7 +37,7 @@
     --bs-gray-300 :#b1c2d9;
     
     --bs-gray-500: #76839a;
-    --margin-top-footer: 0px 30px;
+    --margin-top-footer: 0px 25px;
     --tabnav-active-bg: #eaefff;
     --ellipsis-hover-bg: #9e88f5;
 }
@@ -45,6 +46,7 @@
 .dark-theme{
     --scroll-bg:#212130;
     --scroll-thumb-bg:#9e88f5;
+    --scroll-thumb-bg-primary:#17171E;
 
     --body-bg: #17171E;
     --base-color: #fff;

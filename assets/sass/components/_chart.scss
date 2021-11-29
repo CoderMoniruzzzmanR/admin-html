@@ -4,21 +4,22 @@
     }
 }
 .apexcharts-tooltip {
-    color: var(--mini-card-color-gray) !important;
+    color: var(--base-color-primary) !important;
     &.apexcharts-theme-light, &.apexcharts-active{
-        background: var(--card-bg) !important;
-        border: 1px solid var(--card-border) !important;
+        background: var(--box-bg) !important;
+        border: 1px solid var(--base-border-color) !important;
         .apexcharts-tooltip-title{
-            background: var(--card-bg) !important;
-            border-bottom:  1px solid var(--card-border) !important;
+            background: var(--box-bg) !important;
+            border-bottom:  1px solid var(--base-border-color) !important;
         }
     }
 }
+
 .apexcharts-xaxistooltip{
-    color: var(--mini-card-color-gray) !important;
+    color: var(--base-color-primary) !important;
     &.apexcharts-active{
-        background: var(--card-bg) !important;
-        border: 1px solid var(--card-border) !important;
+        background: var(--box-bg) !important;
+        border: 1px solid var(--base-border-color) !important;
         font-weight: 600;
     }
 }
