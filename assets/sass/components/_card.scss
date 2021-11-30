@@ -47,6 +47,11 @@
             display: flex;
             align-items: center;
         }
+        .social-count{
+            font-size: 13px;
+            border-radius: 0.95rem;
+            font-weight: 500;
+        }
     }
     .card-body{
         background-color: var(--box-bg);
@@ -115,6 +120,7 @@
             color: var(--base-color-secondary);
             font-size: 13px;
         }
+       
     }
     .card-body{
         padding: 15px 25px;
