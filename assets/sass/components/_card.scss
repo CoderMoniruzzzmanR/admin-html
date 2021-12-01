@@ -63,6 +63,16 @@
         .hints{
             color: var(--base-color-primary);
         }
+        .card-body-inner{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            .inner-item{
+                max-width: 50%;
+                flex-shrink: 0;
+                width: 50%;
+            }
+        }
     }
    
 }
